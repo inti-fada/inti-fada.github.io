@@ -202,7 +202,7 @@
     },
     {
       "id": "29",
-      "distributor": "롯데웰푸드",
+      "distributor": "롯데제과",
       "category": "아이스크림",
       "name": "나뚜루 딸기 초콜릿바",
       "israeliIngredients": ["딸기농축액"],
@@ -1678,6 +1678,46 @@
       "category": "요거트",
       "name": "요플레 닥터캡슐 복숭아",
       "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "224",
+      "distributor": "라라스윗",
+      "category": "아이스크림",
+      "name": "멜론 파인트",
+      "israeliIngredients": ["메론농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "225",
+      "distributor": "롯데제과",
+      "category": "아이스크림",
+      "name": "나뚜루 딸기 미니컵",
+      "israeliIngredients": ["딸기농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "226",
+      "distributor": "롯데칠성",
+      "category": "주류",
+      "name": "순하리 레몬진 9도",
+      "israeliIngredients": ["레몬청징농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "227",
+      "distributor": "롯데칠성",
+      "category": "주류",
+      "name": "순하리 자몽진 9도",
+      "israeliIngredients": ["자몽청징농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "228",
+      "distributor": "비알코리아",
+      "category": "과자",
+      "name": "바나나 쥬빌레 크런치",
+      "israeliIngredients": ["바나나농축액"],
       "state": "onSale"
     }
   ]
