@@ -1,0 +1,1210 @@
+{
+  "products": [
+    {
+      "distributor": "남양유업",
+      "category": "가공유",
+      "name": "맛있는우유 GT 멸균우유 딸기맛",
+      "israeliIngredients": ["딸기농축과즙"]
+    },
+    {
+      "distributor": "남양유업",
+      "category": "가공유",
+      "name": "딸기에몽",
+      "israeliIngredients": ["딸기농축과즙"]
+    },
+    {
+      "distributor": "남양유업",
+      "category": "가공유",
+      "name": "우유 듬뿍 딸기에몽",
+      "israeliIngredients": ["딸기농축과즙"]
+    },
+    {
+      "distributor": "남양유업",
+      "category": "요거트",
+      "name": "마시는 불가리스 딸기",
+      "israeliIngredients": ["딸기농축과즙"]
+    },
+    {
+      "distributor": "농심",
+      "category": "과자",
+      "name": "초코파이 바나나",
+      "israeliIngredients": ["바나나농축액"]
+    },
+    {
+      "distributor": "닥터다이어리",
+      "category": "음료",
+      "name": "무화당X메디웰 당당한 바나나맛",
+      "israeliIngredients": ["바나나과즙농축액"]
+    },
+    {
+      "distributor": "대상다이브스",
+      "category": "잼",
+      "name": "복음자리 바로 짜먹는 딸기잼",
+      "israeliIngredients": ["딸기농축액"]
+    },
+    {
+      "distributor": "대상다이브스",
+      "category": "잼",
+      "name": "복음자리 바로 짜먹는 망고잼",
+      "israeliIngredients": ["망고농축액"]
+    },
+    {
+      "distributor": "동원F&B",
+      "category": "음료",
+      "name": "덴마크 테이크 얼라이브 제로 톡 스위티자몽",
+      "israeliIngredients": ["스위티자몽농축액"]
+    },
+    {
+      "distributor": "동원F&B",
+      "category": "음료",
+      "name": "덴마크 테이크 얼라이브 블러드오렌지",
+      "israeliIngredients": ["블러드오렌지농축액"]
+    },
+    {
+      "distributor": "동원F&B",
+      "category": "음료",
+      "name": "덴마크 테이크 얼라이브 망고",
+      "israeliIngredients": ["망고농축액"]
+    },
+    {
+      "distributor": "동원F&B",
+      "category": "음료",
+      "name": "소와나무 쿨피스 복숭아",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "동원F&B",
+      "category": "음료",
+      "name": "쿨피스톡 복숭아맛",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "동원F&B",
+      "category": "가공유",
+      "name": "덴마크 바나바나 우유",
+      "israeliIngredients": ["바나나농축액"]
+    },
+    {
+      "distributor": "동원F&B",
+      "category": "가공유",
+      "name": "덴마크 딸기딸기 우유",
+      "israeliIngredients": ["딸기농축액"]
+    },
+    {
+      "distributor": "동원F&B",
+      "category": "음료",
+      "name": "덴마크 드링킹 요구르트 포스트바이오틱스 딸기",
+      "israeliIngredients": ["딸기농축액"]
+    },
+    {
+      "distributor": "동원F&B",
+      "category": "음료",
+      "name": "덴마크 드링킹 요구르트 포스트바이오틱스 복숭아",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "동원F&B",
+      "category": "가공유",
+      "name": "덴마크 소화가 잘되는 우유로 만든 딸기",
+      "israeliIngredients": ["딸기농축액"]
+    },
+    {
+      "distributor": "동원F&B",
+      "category": "가공유",
+      "name": "가나디 딸기우유",
+      "israeliIngredients": ["딸기농축액"]
+    },
+    {
+      "distributor": "동원F&B",
+      "category": "요거트",
+      "name": "덴마크 드링킹 요구르트 플레인",
+      "israeliIngredients": ["레몬농축과즙"]
+    },
+    {
+      "distributor": "동원F&B",
+      "category": "음료",
+      "name": "잔망 쿨피스 에이드 복숭아",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "라라스윗",
+      "category": "아이스크림",
+      "name": "오렌지 & 라즈베리 파인트",
+      "israeliIngredients": ["오렌지농축액"]
+    },
+    {
+      "distributor": "라라스윗",
+      "category": "아이스크림",
+      "name": "저당 멜론바",
+      "israeliIngredients": ["메론농축액"]
+    },
+    {
+      "distributor": "라라스윗",
+      "category": "아이스크림",
+      "name": "저당 딸기 생요거트바",
+      "israeliIngredients": ["레몬농축액"]
+    },
+    {
+      "distributor": "라라스윗",
+      "category": "아이스크림",
+      "name": "저당 블루베리 생요거트바",
+      "israeliIngredients": ["레몬농축액"]
+    },
+    {
+      "distributor": "롯데웰푸드",
+      "category": "아이스크림",
+      "name": "나뚜루 딸기 초콜릿바",
+      "israeliIngredients": ["딸기농축액"]
+    },
+    {
+      "distributor": "롯데웰푸드",
+      "category": "가공유",
+      "name": "파스퇴르 꼬미루미 딸기",
+      "israeliIngredients": ["배쥬스농축액", "딸기농축액"]
+    },
+    {
+      "distributor": "롯데웰푸드",
+      "category": "가공유",
+      "name": "파스퇴르 꼬미루미 바나나",
+      "israeliIngredients": ["배쥬스농축액"]
+    },
+    {
+      "distributor": "롯데웰푸드",
+      "category": "가공유",
+      "name": "파스퇴르 꼬미루미 믹스베리",
+      "israeliIngredients": ["배쥬스농축액"]
+    },
+    {
+      "distributor": "롯데칠성음료",
+      "category": "음료",
+      "name": "실론티",
+      "israeliIngredients": ["레몬청징농축액"]
+    },
+    {
+      "distributor": "롯데칠성음료",
+      "category": "음료",
+      "name": "2% 부족할 때 복숭아",
+      "israeliIngredients": ["복숭아청징농축액"]
+    },
+    {
+      "distributor": "롯데칠성음료",
+      "category": "주류",
+      "name": "순하리 레몬진 4.5도",
+      "israeliIngredients": ["레몬청징농축액"]
+    },
+    {
+      "distributor": "롯데칠성음료",
+      "category": "주류",
+      "name": "순하리 레몬진 7도",
+      "israeliIngredients": ["레몬청징농축액"]
+    },
+    {
+      "distributor": "링티",
+      "category": "음료",
+      "name": "링티 레몬라이트",
+      "israeliIngredients": ["레몬농축액"]
+    },
+    {
+      "distributor": "링티",
+      "category": "음료",
+      "name": "링티제로 복숭아맛",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "디저트",
+      "name": "데르뜨 감귤",
+      "israeliIngredients": ["감귤농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "디저트",
+      "name": "데르뜨 복숭아",
+      "israeliIngredients": ["복숭아과즙농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "디저트",
+      "name": "데르뜨 백도",
+      "israeliIngredients": ["복숭아과즙농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "디저트",
+      "name": "데르뜨 오렌지",
+      "israeliIngredients": ["오렌지과즙농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "매일야채 고농축 블랙마카와 토마토의 힘",
+      "israeliIngredients": ["백포도농축액", "토마토농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "매일야채 고농축 토마토의 힘",
+      "israeliIngredients": ["백포도농축액", "토마토농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "가공유",
+      "name": "바나나는 원래 하얗다",
+      "israeliIngredients": ["바나나과즙농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "가공유",
+      "name": "딸기는 원래 달콤하다",
+      "israeliIngredients": ["딸기과즙농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "가공유",
+      "name": "소화가 잘되는 우유 바나나",
+      "israeliIngredients": ["바나나과즙농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "썬업 과일야채샐러드 그린",
+      "israeliIngredients": ["청포도농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "썬업 오렌지&감귤",
+      "israeliIngredients": ["오렌지과즙농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "썬업 파인애플",
+      "israeliIngredients": ["백포도과즙농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "요미요미 튼튼시리얼 바나나",
+      "israeliIngredients": ["바나나과즙농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "가공유",
+      "name": "허쉬초콜릿 드링크 바나나",
+      "israeliIngredients": ["바나나과즙농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "가공유",
+      "name": "얼려먹는 허쉬 초코바나나",
+      "israeliIngredients": ["바나나과즙농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "피크닉 천도복숭아",
+      "israeliIngredients": ["복숭아과즙농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "피크닉 복숭아 에이드",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "피크닉 Chill 오렌지",
+      "israeliIngredients": ["오렌지농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "피크닉 Chill 레몬라임",
+      "israeliIngredients": ["레몬농축액", "라임농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "셀렉스 프로핏 바나나",
+      "israeliIngredients": ["바나나과즙농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "셀렉스 프로핏 복숭아 아이스티",
+      "israeliIngredients": ["복숭아과즙농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "셀렉스 프로핏 딸기초코",
+      "israeliIngredients": ["딸기농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "요거트",
+      "name": "바이오 그릭요거트 드링크 바나나",
+      "israeliIngredients": ["바나나농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "요거트",
+      "name": "바이오 그릭요거트 딜라이트 바나나",
+      "israeliIngredients": ["바나나농축액"]
+    },
+    {
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "피크닉 스위트 레몬",
+      "israeliIngredients": ["레몬과즙농축액"]
+    },
+    {
+      "distributor": "부루구루",
+      "category": "주류",
+      "name": "생라임 보드카 하이볼",
+      "israeliIngredients": ["레몬농축액"]
+    },
+    {
+      "distributor": "부루구루",
+      "category": "주류",
+      "name": "킵 바질토마토 칵테일",
+      "israeliIngredients": ["토마토농축액", "레몬농축액"]
+    },
+    {
+      "distributor": "비알코리아",
+      "category": "가공유",
+      "name": "배스킨라빈스 메롱멜론 우유",
+      "israeliIngredients": ["멜론농축액"]
+    },
+    {
+      "distributor": "비알코리아",
+      "category": "가공유",
+      "name": "배스킨라빈스 바나나 쥬빌레 우유",
+      "israeliIngredients": ["바나나농축액"]
+    },
+    {
+      "distributor": "비알코리아",
+      "category": "가공유",
+      "name": "배스킨라빈스 우유에 빠진 딸기",
+      "israeliIngredients": ["딸기농축액"]
+    },
+    {
+      "distributor": "비알코리아",
+      "category": "음료",
+      "name": "피치 요거트 워터",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "비알코리아",
+      "category": "음료",
+      "name": "망고 탱고 워터",
+      "israeliIngredients": ["망고농축과즙"]
+    },
+    {
+      "distributor": "빙그레",
+      "category": "음료",
+      "name": "따옴 망고",
+      "israeliIngredients": ["망고농축퓨레", "배농축액", "망고농축액"]
+    },
+    {
+      "distributor": "빙그레",
+      "category": "음료",
+      "name": "따옴 오렌지",
+      "israeliIngredients": ["오렌지농축과즙"]
+    },
+    {
+      "distributor": "빙그레",
+      "category": "음료",
+      "name": "따옴 자몽",
+      "israeliIngredients": ["자몽농축과즙A", "자몽과육"]
+    },
+    {
+      "distributor": "빙그레",
+      "category": "음료",
+      "name": "따옴 천혜향 한라봉 청귤",
+      "israeliIngredients": ["배농축액"]
+    },
+    {
+      "distributor": "빙그레",
+      "category": "음료",
+      "name": "따옴 Light 복숭아",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "빙그레",
+      "category": "아이스크림",
+      "name": "메로나",
+      "israeliIngredients": ["레몬농축과즙"]
+    },
+    {
+      "distributor": "빙그레",
+      "category": "아이스크림",
+      "name": "딥앤로우 소프트멜론",
+      "israeliIngredients": ["멜론농축액"]
+    },
+    {
+      "distributor": "빙그레",
+      "category": "음료",
+      "name": "유어스 하늘 가득 자몽",
+      "israeliIngredients": ["자몽농축과즙", "자몽과육"]
+    },
+    {
+      "distributor": "빙그레",
+      "category": "음료",
+      "name": "유어스 하늘 가득 유자레몬",
+      "israeliIngredients": ["레몬농축액"]
+    },
+    {
+      "distributor": "빙그레",
+      "category": "음료",
+      "name": "유어스 하늘 가득 납작복숭아",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "빙그레",
+      "category": "음료",
+      "name": "쥬시쿨 복숭아",
+      "israeliIngredients": ["복숭아농축과즙"]
+    },
+    {
+      "distributor": "빙그레",
+      "category": "가공유",
+      "name": "더단백 딸기",
+      "israeliIngredients": ["딸기농축액"]
+    },
+    {
+      "distributor": "빙그레",
+      "category": "가공유",
+      "name": "더단백 바나나",
+      "israeliIngredients": ["바나나농축액"]
+    },
+    {
+      "distributor": "빙그레",
+      "category": "가공유",
+      "name": "더단백 멜론",
+      "israeliIngredients": ["멜론농축액"]
+    },
+    {
+      "distributor": "빙그레",
+      "category": "가공유",
+      "name": "메로나맛 우유",
+      "israeliIngredients": ["메론농축과즙"]
+    },
+    {
+      "distributor": "빙그레",
+      "category": "가공유",
+      "name": "딸기맛 우유",
+      "israeliIngredients": ["딸기농축과즙"]
+    },
+    {
+      "distributor": "빙그레",
+      "category": "가공유",
+      "name": "딸기크림우유880",
+      "israeliIngredients": ["딸기농축액"]
+    },
+    {
+      "distributor": "빙그레",
+      "category": "음료",
+      "name": "캐옴 고농축 토마토",
+      "israeliIngredients": ["배농축액", "레몬농축액"]
+    },
+    {
+      "distributor": "삼경엠앤에스",
+      "category": "음료",
+      "name": "가나디 자몽 비타민워터",
+      "israeliIngredients": ["레드자몽농축액"]
+    },
+    {
+      "distributor": "삼경엠앤에스",
+      "category": "음료",
+      "name": "가나디 레몬 비타민워터",
+      "israeliIngredients": ["레몬농축액"]
+    },
+    {
+      "distributor": "삼경엠앤에스",
+      "category": "음료",
+      "name": "가나디 레몬 녹차 제로",
+      "israeliIngredients": ["레몬농축액"]
+    },
+    {
+      "distributor": "삼양사",
+      "category": "숙취해소제",
+      "name": "상쾌환 부스터 숙취해소",
+      "israeliIngredients": ["망고농축액, 바나나농축액, 메론농축액"]
+    },
+    {
+      "distributor": "삼양사",
+      "category": "숙취해소제",
+      "name": "상쾌환 스틱 망고맛",
+      "israeliIngredients": ["망고농축액, 망고퓌레"]
+    },
+    {
+      "distributor": "삼양사",
+      "category": "숙취해소제",
+      "name": "상쾌환 스틱 샤인머스켓맛",
+      "israeliIngredients": ["백포도농축액"]
+    },
+    {
+      "distributor": "서울우유협동조합",
+      "category": "음료",
+      "name": "서울우유 미노스 바나나우유",
+      "israeliIngredients": ["바나나농축과즙"]
+    },
+    {
+      "distributor": "서울우유협동조합",
+      "category": "음료",
+      "name": "서울우유 요구르트 복숭아",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "서울F&B",
+      "category": "음료",
+      "name": "가나디 망고드링크",
+      "israeliIngredients": ["망고농축액"]
+    },
+    {
+      "distributor": "서울F&B",
+      "category": "음료",
+      "name": "가나디 자몽드링크",
+      "israeliIngredients": ["자몽농축액"]
+    },
+    {
+      "distributor": "서울F&B",
+      "category": "가공유",
+      "name": "뽀로로가 좋아하는 바나나우유",
+      "israeliIngredients": ["바나나농축액"]
+    },
+    {
+      "distributor": "선인",
+      "category": "음료",
+      "name": "무인양품 복숭아 & 우롱티",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "선인",
+      "category": "음료",
+      "name": "무인양품 자몽 소다",
+      "israeliIngredients": ["자몽 펄프"]
+    },
+    {
+      "distributor": "스퀴즈맥주",
+      "category": "주류",
+      "name": "토마토 레드아이 스타일",
+      "israeliIngredients": ["토마토농축액"]
+    },
+    {
+      "distributor": "엠디에스코리아",
+      "category": "디저트",
+      "name": "젤리블리 애플망고",
+      "israeliIngredients": ["망고농축액"]
+    },
+    {
+      "distributor": "엠디에스코리아",
+      "category": "디저트",
+      "name": "젤리블리 제로 애플망고",
+      "israeliIngredients": ["망고농축액"]
+    },
+    {
+      "distributor": "엠디에스코리아",
+      "category": "디저트",
+      "name": "젤리블리 감귤",
+      "israeliIngredients": ["감귤농축액"]
+    },
+    {
+      "distributor": "엠디에스코리아",
+      "category": "디저트",
+      "name": "젤리블리 제로슈가 오렌지망고",
+      "israeliIngredients": ["오렌지농축액", "망고농축액"]
+    },
+    {
+      "distributor": "엠디에스코리아",
+      "category": "디저트",
+      "name": "젤리블리 제로슈가 피치플럼",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "연호식품",
+      "category": "음료",
+      "name": "연호 해피 레몬녹차",
+      "israeliIngredients": ["레몬농축액"]
+    },
+    {
+      "distributor": "연호식품",
+      "category": "음료",
+      "name": "연호 해피 복숭아녹차",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "오뚜기",
+      "category": "통조림",
+      "name": "오뚜기 백도",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "오뚜기",
+      "category": "통조림",
+      "name": "오뚜기 황도",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "우양",
+      "category": "음료",
+      "name": "망고맛 가나디",
+      "israeliIngredients": ["망고농축액"]
+    },
+    {
+      "distributor": "우양",
+      "category": "음료",
+      "name": "자몽맛 가나디",
+      "israeliIngredients": ["적자몽농축액"]
+    },
+    {
+      "distributor": "웅진식품",
+      "category": "음료",
+      "name": "캐치티니핑 솔브앤고 아이튼튼 딸기",
+      "israeliIngredients": ["딸기농축액"]
+    },
+    {
+      "distributor": "웅진식품",
+      "category": "음료",
+      "name": "캐치티니핑 딸기맛",
+      "israeliIngredients": ["딸기농축액"]
+    },
+    {
+      "distributor": "웅진식품",
+      "category": "음료",
+      "name": "티즐 제로 피치우롱티",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "웅진식품",
+      "category": "음료",
+      "name": "티즐 제로 자몽블랙티",
+      "israeliIngredients": ["레드자몽농축액"]
+    },
+    {
+      "distributor": "웅진식품",
+      "category": "음료",
+      "name": "티즐 제로 피치얼그레이",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "웅진식품",
+      "category": "음료",
+      "name": "티즐 제로 라임민트티",
+      "israeliIngredients": ["라임농축액"]
+    },
+    {
+      "distributor": "웅진식품",
+      "category": "음료",
+      "name": "티즐 제로 딸기루이보스",
+      "israeliIngredients": ["딸기농축액"]
+    },
+    {
+      "distributor": "웅진식품",
+      "category": "음료",
+      "name": "티즐 스파클링 피치우롱티",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "웰그린",
+      "category": "음료",
+      "name": "레몬녹차",
+      "israeliIngredients": ["레몬주스농축액"]
+    },
+    {
+      "distributor": "웰그린",
+      "category": "음료",
+      "name": "복숭아녹차",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "웰그린",
+      "category": "음료",
+      "name": "레몬녹차 제로",
+      "israeliIngredients": ["레몬농축액"]
+    },
+    {
+      "distributor": "웰그린",
+      "category": "음료",
+      "name": "복숭아녹차 제로",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "웰그린",
+      "category": "음료",
+      "name": "복숭아에이드",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "이마트",
+      "category": "요거트",
+      "name": "노브랜드 데일리 요거트 딸기",
+      "israeliIngredients": ["레몬농축과즙"]
+    },
+    {
+      "distributor": "이마트",
+      "category": "음료",
+      "name": "노브랜드 쿨피치",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "이마트",
+      "category": "고형차",
+      "name": "노브랜드 레몬홍차",
+      "israeliIngredients": ["레몬과즙분말"]
+    },
+    {
+      "distributor": "이마트",
+      "category": "음료",
+      "name": "피코크 블렌디드 딸기",
+      "israeliIngredients": ["배과즙농축액"]
+    },
+    {
+      "distributor": "인테이크",
+      "category": "음료",
+      "name": "슈가로로 코코제로 망고",
+      "israeliIngredients": ["망고농축액"]
+    },
+    {
+      "distributor": "인테이크",
+      "category": "음료",
+      "name": "슈가로로 코코제로 복숭아",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "쟈뎅",
+      "category": "음료",
+      "name": "히비스커스 애플오렌지",
+      "israeliIngredients": ["오렌지농축액"]
+    },
+    {
+      "distributor": "쟈뎅",
+      "category": "음료",
+      "name": "루이보스 피치망고",
+      "israeliIngredients": ["복숭아농축액", "망고농축액"]
+    },
+    {
+      "distributor": "쟈뎅",
+      "category": "음료",
+      "name": "까페리얼 망고에이드",
+      "israeliIngredients": ["망고농축액"]
+    },
+    {
+      "distributor": "쟈뎅",
+      "category": "음료",
+      "name": "까페리얼 블루레몬에이드",
+      "israeliIngredients": ["레몬농축액"]
+    },
+    {
+      "distributor": "쟈뎅",
+      "category": "음료",
+      "name": "까페리얼 복숭아 아이스티",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "쟈뎅",
+      "category": "음료",
+      "name": "마이쮸 트리플베리 요거트 에이드",
+      "israeliIngredients": ["딸기농축액"]
+    },
+    {
+      "distributor": "쟈뎅",
+      "category": "침출차",
+      "name": "아워티 레몬 얼그레이 티",
+      "israeliIngredients": ["레몬농축액"]
+    },
+    {
+      "distributor": "쟈뎅",
+      "category": "침출차",
+      "name": "아워티 오렌지 자몽 블랙티",
+      "israeliIngredients": ["자몽농축고형분"]
+    },
+    {
+      "distributor": "쟈뎅",
+      "category": "침출차",
+      "name": "아워티 오렌지 자몽 블랙티 제로",
+      "israeliIngredients": ["자몽농축고형분"]
+    },
+    {
+      "distributor": "쟈뎅",
+      "category": "침출차",
+      "name": "아워티 제주 청귤 캐모마일 티",
+      "israeliIngredients": ["레몬농축액"]
+    },
+    {
+      "distributor": "쟈뎅",
+      "category": "고형차",
+      "name": "아워티 콤부차 자몽",
+      "israeliIngredients": ["자몽농축고형분"]
+    },
+    {
+      "distributor": "쟈뎅",
+      "category": "고형차",
+      "name": "아워티 콤부차 레몬",
+      "israeliIngredients": ["레몬농축액"]
+    },
+    {
+      "distributor": "쟈뎅",
+      "category": "음료",
+      "name": "프루토프루타 레몬 워터",
+      "israeliIngredients": ["레몬농축액"]
+    },
+    {
+      "distributor": "쟈뎅",
+      "category": "음료",
+      "name": "프루토프루타 피치 워터",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "팔도",
+      "category": "음료",
+      "name": "귀여운 내친구 뽀로로 딸기맛",
+      "israeliIngredients": ["딸기농축액"]
+    },
+    {
+      "distributor": "팔도",
+      "category": "음료",
+      "name": "뽀로로 홍삼쏙쏙 오렌지",
+      "israeliIngredients": ["오렌지농축액"]
+    },
+    {
+      "distributor": "팔도",
+      "category": "음료",
+      "name": "뽀로로 멜론톡",
+      "israeliIngredients": ["멜론농축액"]
+    },
+    {
+      "distributor": "풀무원녹즙",
+      "category": "음료",
+      "name": "프레시 토마토",
+      "israeliIngredients": ["배농축과즙"]
+    },
+    {
+      "distributor": "풀무원녹즙",
+      "category": "음료",
+      "name": "프레시 스트로베리",
+      "israeliIngredients": ["배농축과즙"]
+    },
+    {
+      "distributor": "풀무원다논",
+      "category": "요거트",
+      "name": "풀무원 요거트 그릭 플레인",
+      "israeliIngredients": ["레몬농축과즙"]
+    },
+    {
+      "distributor": "풀무원다논",
+      "category": "요거트",
+      "name": "풀무원 요거트 그릭 블루베리",
+      "israeliIngredients": ["딸기농축과즙"]
+    },
+    {
+      "distributor": "풀무원다논",
+      "category": "요거트",
+      "name": "풀무원 요거트 하루 포도",
+      "israeliIngredients": ["레몬농축과즙"]
+    },
+    {
+      "distributor": "풀무원다논",
+      "category": "요거트",
+      "name": "풀무원 요거트 하루 딸기",
+      "israeliIngredients": ["레몬농축과즙"]
+    },
+    {
+      "distributor": "풀무원다논",
+      "category": "요거트",
+      "name": "풀무원 요거트 하루 복숭아",
+      "israeliIngredients": ["레몬농축과즙"]
+    },
+    {
+      "distributor": "풀무원다논",
+      "category": "요거트",
+      "name": "액티비아 스무디요거트 딸기바나나",
+      "israeliIngredients": ["딸기농축액"]
+    },
+    {
+      "distributor": "풀무원다논",
+      "category": "요거트",
+      "name": "액티비아 컵 딸기",
+      "israeliIngredients": ["레몬농축액"]
+    },
+    {
+      "distributor": "풀무원다논",
+      "category": "요거트",
+      "name": "액티비아 컵 복숭아",
+      "israeliIngredients": ["레몬농축액"]
+    },
+    {
+      "distributor": "풀무원다논",
+      "category": "요거트",
+      "name": "액티비아 병 딸기",
+      "israeliIngredients": ["딸기농축액"]
+    },
+    {
+      "distributor": "풀무원식품",
+      "category": "음료",
+      "name": "It's에이드 레몬",
+      "israeliIngredients": ["배농축과즙"]
+    },
+    {
+      "distributor": "풀무원식품",
+      "category": "음료",
+      "name": "아임리얼100 망고",
+      "israeliIngredients": ["배농축과즙", "열대혼합과일농축액"]
+    },
+    {
+      "distributor": "풀무원식품",
+      "category": "음료",
+      "name": "아임리얼100 레몬",
+      "israeliIngredients": ["배농축과즙", "레몬농축액", "열대혼합과일농축액"]
+    },
+    {
+      "distributor": "풀무원식품",
+      "category": "음료",
+      "name": "아임리얼100 고농축 블루베리",
+      "israeliIngredients": ["배농축과즙"]
+    },
+    {
+      "distributor": "풀무원식품",
+      "category": "음료",
+      "name": "아임리얼100 고농축 토마토",
+      "israeliIngredients": ["토마토농축액"]
+    },
+    {
+      "distributor": "풀무원식품",
+      "category": "음료",
+      "name": "아임리얼100 고농축 타트체리",
+      "israeliIngredients": ["배농축과즙"]
+    },
+    {
+      "distributor": "풀무원식품",
+      "category": "음료",
+      "name": "아임리얼100 고농축 푸룬",
+      "israeliIngredients": ["배농축과즙"]
+    },
+    {
+      "distributor": "풀무원식품",
+      "category": "음료",
+      "name": "아임리얼100 망고스무디",
+      "israeliIngredients": ["배농축과즙"]
+    },
+    {
+      "distributor": "풀무원식품",
+      "category": "음료",
+      "name": "비타미니즈 딸기",
+      "israeliIngredients": ["딸기농축액"]
+    },
+    {
+      "distributor": "풀무원푸드머스",
+      "category": "과자",
+      "name": "그레인 미니바이트 바나나",
+      "israeliIngredients": ["바나나농축액"]
+    },
+    {
+      "distributor": "풀무원푸드머스",
+      "category": "기타",
+      "name": "풀스키친 에너젤",
+      "israeliIngredients": ["열대혼합과일농축액"]
+    },
+    {
+      "distributor": "풀무원푸드머스",
+      "category": "아이스크림",
+      "name": "풀스키친 살짝 녹여먹는 슬러쉬 레몬",
+      "israeliIngredients": ["레몬농축액"]
+    },
+    {
+      "distributor": "풀무원푸드머스",
+      "category": "음료",
+      "name": "풀스키친 스위트 자몽",
+      "israeliIngredients": ["자몽농축액"]
+    },
+    {
+      "distributor": "풀무원푸드머스",
+      "category": "음료",
+      "name": "풀스키친 스위트 트로피컬",
+      "israeliIngredients": ["열대혼합과일농축액"]
+    },
+    {
+      "distributor": "풀무원푸드머스",
+      "category": "음료",
+      "name": "풀스키친 자몽허니블랙티",
+      "israeliIngredients": ["적자몽농축액"]
+    },
+    {
+      "distributor": "풀무원푸드머스",
+      "category": "음료",
+      "name": "풀스키친 마시는 샐러드 오렌지",
+      "israeliIngredients": ["오렌지농축액"]
+    },
+    {
+      "distributor": "풀무원푸드머스",
+      "category": "음료",
+      "name": "풀스키친 마시는 샐러드 그린",
+      "israeliIngredients": ["멜론농축액"]
+    },
+    {
+      "distributor": "프레시코",
+      "category": "음료",
+      "name": "아임얼라이브 콤부차 마누카꿀 복숭아",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "프레시코",
+      "category": "음료",
+      "name": "아임얼라이브 콤부차 자몽애플",
+      "israeliIngredients": ["레드자몽농축액", "라임농축액"]
+    },
+    {
+      "distributor": "하이트진로",
+      "category": "주류",
+      "name": "이슬톡톡 복숭아",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "하이트진로",
+      "category": "주류",
+      "name": "이슬톡톡 파인애플",
+      "israeliIngredients": ["파인애플농축액"]
+    },
+    {
+      "distributor": "하이트진로",
+      "category": "주류",
+      "name": "자몽에이슬",
+      "israeliIngredients": ["레드자몽농축액"]
+    },
+    {
+      "distributor": "한국애플리즈",
+      "category": "주류",
+      "name": "The 찾을수록 피치",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "한국애플리즈",
+      "category": "주류",
+      "name": "The 찾을수록 레몬",
+      "israeliIngredients": ["레몬농축액"]
+    },
+    {
+      "distributor": "한국청정음료",
+      "category": "고형차",
+      "name": "몽베스트 블랜딩 티 복숭아 그린티",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "한국청정음료",
+      "category": "고형차",
+      "name": "몽베스트 블랜딩 티 자몽 그린티",
+      "israeliIngredients": ["적자몽농축액"]
+    },
+    {
+      "distributor": "한국청정음료",
+      "category": "고형차",
+      "name": "몽베스트 콤부차 딸기바나나",
+      "israeliIngredients": ["바나나추출액"]
+    },
+    {
+      "distributor": "한국청정음료",
+      "category": "고형차",
+      "name": "몽베스트 콤부차 자몽파인",
+      "israeliIngredients": ["적자몽농축액"]
+    },
+    {
+      "distributor": "해태HTB",
+      "category": "음료",
+      "name": "봉봉 복숭아",
+      "israeliIngredients": ["복숭아클리어농축액"]
+    },
+    {
+      "distributor": "해태HTB",
+      "category": "음료",
+      "name": "봉봉 아이스티 제로 복숭아",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "해태HTB",
+      "category": "음료",
+      "name": "봉봉 아이스티 제로 자몽",
+      "israeliIngredients": ["레드자몽농축액"]
+    },
+    {
+      "distributor": "BGF리테일",
+      "category": "음료",
+      "name": "HEYROO 블루레몬에이드",
+      "israeliIngredients": ["레몬농축액"]
+    },
+    {
+      "distributor": "BGF리테일",
+      "category": "음료",
+      "name": "HEYROO 납작복숭아꿀물",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "CJ제일제당",
+      "category": "음료",
+      "name": "쁘띠첼 워터젤리 오렌지",
+      "israeliIngredients": ["오렌지농축액"]
+    },
+    {
+      "distributor": "GS리테일",
+      "category": "가공유",
+      "name": "리얼980 딸기우유",
+      "israeliIngredients": ["딸기농축액"]
+    },
+    {
+      "distributor": "GS리테일",
+      "category": "가공유",
+      "name": "춘식이 딸기우유",
+      "israeliIngredients": ["딸기농축액"]
+    },
+    {
+      "distributor": "GS리테일",
+      "category": "음료",
+      "name": "유어스 납작복숭아아이스티",
+      "israeliIngredients": ["복숭아농축액"]
+    },
+    {
+      "distributor": "GS리테일",
+      "category": "음료",
+      "name": "유어스 아망추",
+      "israeliIngredients": ["망고농축액", "복숭아농축액"]
+    },
+    {
+      "distributor": "GS리테일",
+      "category": "음료",
+      "name": "유어스 블루레몬에이드",
+      "israeliIngredients": ["레몬농축액"]
+    },
+    {
+      "distributor": "HK이노엔",
+      "category": "숙취해소제",
+      "name": "컨디션스틱 컨디션맛",
+      "israeliIngredients": ["배쥬스농축액"]
+    },
+    {
+      "distributor": "HK이노엔",
+      "category": "숙취해소제",
+      "name": "컨디션스틱 그린애플",
+      "israeliIngredients": ["사과농축액"]
+    },
+    {
+      "distributor": "HK이노엔",
+      "category": "숙취해소제",
+      "name": "컨디션스틱 망고",
+      "israeliIngredients": ["바나나농축액", "망고농축액"]
+    },
+    {
+      "distributor": "HK이노엔",
+      "category": "숙취해소제",
+      "name": "컨디션스틱 자두",
+      "israeliIngredients": ["바나나농축액"]
+    },
+    {
+      "distributor": "HK이노엔",
+      "category": "음료",
+      "name": "티로그 납작복숭아 아이스티",
+      "israeliIngredients": ["복숭아농축액"]
+    }
+  ]
+}
