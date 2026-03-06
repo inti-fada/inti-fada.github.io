@@ -1,11 +1,11 @@
+## 🧐 이스라엘산 들어갔나요?
 
-  # 🧐 이스라엘산 들어갔나요?
+이스라엘산 원재료를 사용한 가공식품을 쉽게 찾아볼 수 있게 합니다.
+Figma로 디자인하고 Figma Make로 구현했습니다.
 
-  This is a code bundle for 🧐 이스라엘산 들어갔나요?. The original project is available at https://www.figma.com/design/XxUhDr9VhstJVzu6dQDF86/%F0%9F%A7%90-%EC%9D%B4%EC%8A%A4%EB%9D%BC%EC%97%98%EC%82%B0-%EB%93%A4%EC%96%B4%EA%B0%94%EB%82%98%EC%9A%94-.
+잘못된 정보나 빠져있는 제품은 [여기](https://forms.gle/3kKMPJrdXr9dK7tUA)로 제보해 주세요.
 
-  ## Running the code
-
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-  
+이후에 예정되어 있는 업데이트는 다음과 같습니다.
+* 목록에 제품 이미지 정보 추가
+* 각 항목 클릭 시 제품 후면 원재료 정보 이미지 표시되도록 정보 및 기능 추가
+* 검색 기능 추가
