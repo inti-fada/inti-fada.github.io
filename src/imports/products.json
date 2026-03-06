@@ -34,7 +34,7 @@
     },
     {
       "id": "5",
-      "distributor": "오리온",
+      "distributor": "농심",
       "category": "과자",
       "name": "초코파이 바나나",
       "israeliIngredients": ["바나나농축액"],
@@ -92,7 +92,7 @@
       "id": "12",
       "distributor": "동원F&B",
       "category": "음료",
-      "name": "소와나무 쿨피스 복숭아",
+      "name": "쿨피스 복숭아",
       "israeliIngredients": ["복숭아농축액"],
       "state": "onSale"
     },
@@ -100,7 +100,7 @@
       "id": "13",
       "distributor": "동원F&B",
       "category": "음료",
-      "name": "쿨피스톡 복숭아맛",
+      "name": "쿨피스 제로 스파클링 복숭아",
       "israeliIngredients": ["복숭아농축액"],
       "state": "onSale"
     },
@@ -123,16 +123,16 @@
     {
       "id": "16",
       "distributor": "동원F&B",
-      "category": "음료",
-      "name": "덴마크 드링킹 요구르트 포스트바이오틱스 딸기",
+      "category": "요거트",
+      "name": "덴마크 드링킹 요구르트 딸기",
       "israeliIngredients": ["딸기농축액"],
       "state": "onSale"
     },
     {
       "id": "17",
       "distributor": "동원F&B",
-      "category": "음료",
-      "name": "덴마크 드링킹 요구르트 포스트바이오틱스 복숭아",
+      "category": "요거트",
+      "name": "덴마크 드링킹 요구르트 복숭아",
       "israeliIngredients": ["복숭아농축액"],
       "state": "onSale"
     },
@@ -1605,6 +1605,78 @@
       "distributor": "HK이노엔",
       "category": "음료",
       "name": "티로그 납작복숭아 아이스티",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "215",
+      "distributor": "동원F&B",
+      "category": "음료",
+      "name": "덴마크 테이크 얼라이브 스위티자몽",
+      "israeliIngredients": ["스위티자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "216",
+      "distributor": "동원F&B",
+      "category": "음료",
+      "name": "덴마크 테이크 얼라이브 쿨 블러드오렌지",
+      "israeliIngredients": ["블러드오렌지농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "217",
+      "distributor": "동원F&B",
+      "category": "음료",
+      "name": "덴마크 테이크 얼라이브 쿨 망고",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "218",
+      "distributor": "동원F&B",
+      "category": "음료",
+      "name": "덴마크 테이크 얼라이브 쿨 스위티자몽",
+      "israeliIngredients": ["스위티자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "219",
+      "distributor": "동원F&B",
+      "category": "음료",
+      "name": "생 쿨피스 복숭아",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "220",
+      "distributor": "동원F&B",
+      "category": "음료",
+      "name": "생 쿨피스 바나나",
+      "israeliIngredients": ["바나나농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "221",
+      "distributor": "우리술",
+      "category": "주류",
+      "name": "복숭아동동",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "222",
+      "distributor": "GS리테일",
+      "category": "음료",
+      "name": "유어스 덴마크 드링킹 포스트 바이오틱스 레몬",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "223",
+      "distributor": "빙그레",
+      "category": "요거트",
+      "name": "요플레 닥터캡슐 복숭아",
       "israeliIngredients": ["복숭아농축액"],
       "state": "onSale"
     }
