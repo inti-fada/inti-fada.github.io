@@ -176,6 +176,13 @@ export default function App() {
           {filteredProducts.length}개 제품
         </p>
       </div>
+
+      {/* Footer */}
+      <div className="px-[16px] pb-[24px] text-center">
+        <p className="font-['Pretendard:regular',sans-serif] text-[12px] text-[#9ca3af]">
+          made by Joanne - Saoirse don Phalaistín 🍉
+        </p>
+      </div>
     </div>
   );
 }
