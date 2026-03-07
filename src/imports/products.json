@@ -1839,6 +1839,14 @@
       "name": "액티비아 UP 딸기",
       "israeliIngredients": ["딸기농축과즙"],
       "state": "onSale"
+    },
+    {
+      "id": "231",
+      "distributor": "풀무원푸드머스",
+      "category": "아이스크림",
+      "name": "풀스키친 살짝 녹여먹는 슬러쉬 망고",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
     }
   ]
 }
