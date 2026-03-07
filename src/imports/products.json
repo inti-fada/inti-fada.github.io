@@ -1847,6 +1847,22 @@
       "name": "풀스키친 살짝 녹여먹는 슬러쉬 망고",
       "israeliIngredients": ["망고농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "232",
+      "distributor": "BGF리테일",
+      "category": "음료",
+      "name": "delaffe 블루레몬에이드",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "233",
+      "distributor": "라이트힐",
+      "category": "주류",
+      "name": "아망추 하이볼",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
     }
   ]
 }
