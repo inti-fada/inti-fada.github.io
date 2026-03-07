@@ -2,10 +2,12 @@ import { useState, useMemo, useEffect } from 'react';
 import productsData from '../imports/products.json';
 
 interface Product {
+  id: string;
   distributor: string;
   category: string;
   name: string;
   israeliIngredients: string[];
+  state: string;
 }
 
 function ProductCard({ product }: { product: Product }) {
@@ -76,7 +78,13 @@ function FilterButton({
 }
 
 export default function App() {
-  const products = productsData.products as Product[];
+  const allProducts = productsData.products as Product[];
+
+  // Filter only products on sale
+  const products = useMemo(() => {
+    return allProducts.filter(p => p.state === 'onSale');
+  }, [allProducts]);
+
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
   // Get unique categories sorted by product count (descending)
@@ -94,12 +102,14 @@ export default function App() {
     });
   }, [products]);
 
-  // Filter products based on selected category
+  // Filter products based on selected category and sort by name ascending
   const filteredProducts = useMemo(() => {
-    if (!selectedCategory) {
-      return products;
-    }
-    return products.filter(p => p.category === selectedCategory);
+    let filtered = selectedCategory 
+      ? products.filter(p => p.category === selectedCategory)
+      : products;
+    
+    // Sort by name in ascending order
+    return filtered.sort((a, b) => a.name.localeCompare(b.name, 'ko'));
   }, [products, selectedCategory]);
 
   // Scroll to top when filter changes
