@@ -201,14 +201,6 @@
       "state": "onSale"
     },
     {
-      "id": "26",
-      "distributor": "라라스윗",
-      "category": "아이스크림",
-      "name": "저당 파르페 요거놀라",
-      "israeliIngredients": ["홍자몽펄프", "레드자몽농축액"],
-      "state": "discontinued"
-    },
-    {
       "id": "29",
       "distributor": "롯데제과",
       "category": "아이스크림",
@@ -844,7 +836,7 @@
       "id": "118",
       "distributor": "연호식품",
       "category": "음료",
-      "name": "해피 레몬녹차",
+      "name": "연호 해피 레몬녹차",
       "israeliIngredients": ["레몬농축액"],
       "state": "onSale"
     },
@@ -852,7 +844,7 @@
       "id": "119",
       "distributor": "연호식품",
       "category": "음료",
-      "name": "해피 복숭아녹차",
+      "name": "연호 해피 복숭아녹차",
       "israeliIngredients": ["복숭아농축액"],
       "state": "onSale"
     },
