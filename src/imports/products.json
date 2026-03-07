@@ -1726,13 +1726,13 @@
       "category": "음료",
       "name": "덴마크 테이크 얼라이브 쿨 블러드오렌지",
       "israeliIngredients": ["블러드오렌지농축액"],
-      "state": "onSale"
+      "state": "discontinued"
     },
     {
       "id": "217",
       "distributor": "동원F&B",
       "category": "음료",
-      "name": "덴마크 테이크 얼라이브 쿨 망고",
+      "name": "덴마크 테이크 얼라이브 제로 망고",
       "israeliIngredients": ["망고농축액"],
       "state": "onSale"
     },
@@ -1740,7 +1740,7 @@
       "id": "218",
       "distributor": "동원F&B",
       "category": "음료",
-      "name": "덴마크 테이크 얼라이브 쿨 스위티자몽",
+      "name": "덴마크 테이크 얼라이브 제로 스위티자몽",
       "israeliIngredients": ["스위티자몽농축액"],
       "state": "onSale"
     },
