@@ -209,6 +209,22 @@
       "state": "discontinued"
     },
     {
+      "id": "27",
+      "distributor": "라이프허브",
+      "category": "영양제",
+      "name": "라이프허브 이노시톨 2000",
+      "israeliIngredients": [],
+      "state": "discontinued"
+    },
+    {
+      "id": "28",
+      "distributor": "롯데제과",
+      "category": "과자",
+      "name": "딸기 디저트에 퐁당 카스타드 딸기라떼",
+      "israeliIngredients": [],
+      "state": "discontinued"
+    },
+    {
       "id": "29",
       "distributor": "롯데제과",
       "category": "아이스크림",
@@ -239,6 +255,14 @@
       "name": "파스퇴르 꼬미루미 믹스베리",
       "israeliIngredients": ["배쥬스농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "33",
+      "distributor": "롯데칠성음료",
+      "category": "음료",
+      "name": "델몬트 콜드 복숭아주스",
+      "israeliIngredients": [],
+      "state": "discontinued"
     },
     {
       "id": "34",
@@ -385,6 +409,38 @@
       "state": "onSale"
     },
     {
+      "id": "52",
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "요미요미 야채와과일 보라",
+      "israeliIngredients": ["레몬주스농축액"],
+      "state": "discontinued"
+    },
+    {
+      "id": "53",
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "요미요미 야채와과일 빨강",
+      "israeliIngredients": ["레몬주스농축액"],
+      "state": "discontinued"
+    },
+    {
+      "id": "54",
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "요미요미 야채와과일 초록",
+      "israeliIngredients": ["레몬주스농축액"],
+      "state": "discontinued"
+    },
+    {
+      "id": "55",
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "요미요미 야채와과일 노랑",
+      "israeliIngredients": ["레몬주스농축액"],
+      "state": "discontinued"
+    },
+    {
       "id": "56",
       "distributor": "매일유업",
       "category": "음료",
@@ -407,6 +463,14 @@
       "name": "얼려먹는 허쉬 초코바나나",
       "israeliIngredients": ["바나나과즙농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "59",
+      "distributor": "매일유업",
+      "category": "디저트",
+      "name": "피크닉 젤리 복숭아",
+      "israeliIngredients": [],
+      "state": "unclear"
     },
     {
       "id": "60",
@@ -577,6 +641,14 @@
       "state": "onSale"
     },
     {
+      "id": "81",
+      "distributor": "빙그레",
+      "category": "음료",
+      "name": "따옴 납작복숭아 백도",
+      "israeliIngredients": ["배농축액", "복숭아농축액"],
+      "state": "discontinued"
+    },
+    {
       "id": "82",
       "distributor": "빙그레",
       "category": "음료",
@@ -599,6 +671,14 @@
       "name": "딥앤로우 소프트멜론",
       "israeliIngredients": ["멜론농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "85",
+      "distributor": "빙그레",
+      "category": "음료",
+      "name": "식물성 바유 아몬드 & 소이",
+      "israeliIngredients": ["바나나농축액"],
+      "state": "discontinued"
     },
     {
       "id": "86",
@@ -729,6 +809,14 @@
       "state": "onSale"
     },
     {
+      "id": "102",
+      "distributor": "삼양사",
+      "category": "숙취해소제",
+      "name": "상쾌환 스틱 복숭아맛",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
       "id": "103",
       "distributor": "삼양사",
       "category": "숙취해소제",
@@ -751,6 +839,14 @@
       "name": "서울우유 요구르트 복숭아",
       "israeliIngredients": ["복숭아농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "106",
+      "distributor": "서울F&B",
+      "category": "가공유",
+      "name": "가나디 바나나우유",
+      "israeliIngredients": ["바나나과즙농축액"],
+      "state": "unclear"
     },
     {
       "id": "107",
