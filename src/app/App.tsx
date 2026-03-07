@@ -1,44 +1,41 @@
 import { useState, useMemo, useEffect } from 'react';
 import productsData from '../imports/products.json';
+import ListItem from '../imports/ListItem';
+
+// Import product thumbnails
+import img1 from 'figma:asset/d4a54499639a31d0bde5e39308c9fb7b00390139.png';
+import img2 from 'figma:asset/43d1dfaeccfdb4f64999f01c9d5ff96d6cec60a5.png';
+import img3 from 'figma:asset/5ae82f36d415546267104eff901257544c6ec542.png';
+import img4 from 'figma:asset/5dde12582917e2bce0aa22f4dcf2ab9e8ff010b0.png';
+import img5 from 'figma:asset/bddd2b21849484d5fda1371a90d06e94121d2674.png';
+import img6 from 'figma:asset/df1fda7fc2215a80229d06393645569a95214e62.png';
+import img7 from 'figma:asset/22cc50734c34f86af5ef8cb74a89e01b5522093f.png';
+import img8 from 'figma:asset/d88d1db1eab6c28d888644fcbd140ea969c73f7b.png';
+import img9 from 'figma:asset/e68e47c3081f6f75ba9b2b54eb2cf091ad32a7af.png';
+import img10 from 'figma:asset/e693f6c5a55896c0aa1b59644fdb6a3c1262606c.png';
 
 interface Product {
+  id: string;
   distributor: string;
   category: string;
   name: string;
   israeliIngredients: string[];
+  state: string;
 }
 
-function ProductCard({ product }: { product: Product }) {
-  return (
-    <div className="bg-white content-stretch flex flex-col gap-[20px] items-start p-[20px] relative shrink-0 w-full rounded-lg">
-      <div aria-hidden="true" className="absolute border border-[#e5e7eb] border-solid inset-0 pointer-events-none rounded-lg" />
-      <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full">
-        <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full">
-          <div className="bg-[#f3f4f6] content-stretch flex items-center justify-center p-[4px] relative rounded-[4px] shrink-0">
-            <p className="font-['Pretendard:semibold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#6b7280] text-[12px] whitespace-nowrap">
-              {product.category}
-            </p>
-          </div>
-          <div className="content-stretch flex items-center relative shrink-0 w-full">
-            <p className="flex-[1_0_0] font-['Pretendard:semibold',sans-serif] leading-[normal] min-h-px min-w-px not-italic relative text-[#1f2937] text-[16px]">
-              {product.name}
-            </p>
-          </div>
-          <div className="content-stretch flex items-center justify-center relative shrink-0">
-            <p className="font-['Pretendard:semibold',sans-serif] leading-[normal] not-italic overflow-hidden relative shrink-0 text-[#6b7280] text-[12px] text-ellipsis whitespace-nowrap">
-              {product.distributor}
-            </p>
-          </div>
-        </div>
-        <div className="content-stretch flex items-start relative shrink-0 w-full">
-          <p className="flex-[1_0_0] font-['Pretendard:regular',sans-serif] leading-[normal] min-h-px min-w-px not-italic relative text-[#1f2937] text-[12px]">
-            이스라엘산 {product.israeliIngredients.join(', ')} 포함
-          </p>
-        </div>
-      </div>
-    </div>
-  );
-}
+// Map product IDs to their thumbnail images
+const thumbnailMap: Record<string, string> = {
+  '1': img1,
+  '2': img2,
+  '3': img3,
+  '4': img4,
+  '5': img5,
+  '6': img6,
+  '7': img7,
+  '8': img8,
+  '9': img9,
+  '10': img10,
+};
 
 function FilterButton({ 
   label, 
@@ -76,7 +73,13 @@ function FilterButton({
 }
 
 export default function App() {
-  const products = productsData.products as Product[];
+  const allProducts = productsData.products as Product[];
+  
+  // Filter only products on sale
+  const products = useMemo(() => {
+    return allProducts.filter(p => p.state === 'onSale');
+  }, [allProducts]);
+  
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
   // Get unique categories sorted by product count (descending)
@@ -94,12 +97,14 @@ export default function App() {
     });
   }, [products]);
 
-  // Filter products based on selected category
+  // Filter products based on selected category and sort by name ascending
   const filteredProducts = useMemo(() => {
-    if (!selectedCategory) {
-      return products;
-    }
-    return products.filter(p => p.category === selectedCategory);
+    let filtered = selectedCategory 
+      ? products.filter(p => p.category === selectedCategory)
+      : products;
+    
+    // Sort by name in ascending order
+    return filtered.sort((a, b) => a.name.localeCompare(b.name, 'ko'));
   }, [products, selectedCategory]);
 
   // Scroll to top when filter changes
@@ -165,8 +170,17 @@ export default function App() {
 
       {/* Product List */}
       <div className="flex flex-col gap-[12px] p-[16px] w-full">
-        {filteredProducts.map((product, index) => (
-          <ProductCard key={index} product={product} />
+        {filteredProducts.map((product) => (
+          <ListItem 
+            key={product.id}
+            className="bg-white content-stretch flex items-start min-h-[120px] p-[12px] relative rounded-[4px] w-full"
+            hasThumbnail={true}
+            thumbnail={thumbnailMap[product.id]}
+            category={product.category}
+            name={product.name}
+            distributor={product.distributor}
+            israeliIngredients={product.israeliIngredients.join(', ')}
+          />
         ))}
       </div>
 
