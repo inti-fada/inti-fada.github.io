@@ -1719,6 +1719,22 @@
       "name": "바나나 쥬빌레 크런치",
       "israeliIngredients": ["바나나농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "229",
+      "distributor": "연호식품",
+      "category": "음료",
+      "name": "스마일 블루레몬 에이드",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "230",
+      "distributor": "풀무원다논",
+      "category": "요거트",
+      "name": "액티비아 UP 딸기",
+      "israeliIngredients": ["딸기농축과즙"],
+      "state": "onSale"
     }
   ]
 }
