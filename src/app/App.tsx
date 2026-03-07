@@ -1,5 +1,6 @@
 import { useState, useMemo, useEffect } from 'react';
 import productsData from '../imports/products.json';
+import availableImages from '../imports/availableImages.json';
 
 interface Product {
   id: string;
@@ -10,34 +11,31 @@ interface Product {
   state: string;
 }
 
-function ProductCard({ product }: { product: Product }) {
+function ProductCard({ product, hasImage }: { product: Product; hasImage: boolean }) {
+  const imageUrl = `/products/${product.id}.webp`;
+
   return (
-    <div className="bg-white content-stretch flex flex-col gap-[20px] items-start p-[20px] relative shrink-0 w-full rounded-lg">
-      <div aria-hidden="true" className="absolute border border-[#e5e7eb] border-solid inset-0 pointer-events-none rounded-lg" />
-      <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full">
-        <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full">
-          <div className="bg-[#f3f4f6] content-stretch flex items-center justify-center p-[4px] relative rounded-[4px] shrink-0">
-            <p className="font-['Pretendard:semibold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#6b7280] text-[12px] whitespace-nowrap">
-              {product.category}
-            </p>
+    <div className="bg-white flex items-start p-[12px] relative rounded-[8px] w-full border border-[#e5e7eb] gap-[12px] min-h-[120px]">
+      <div className="flex flex-1 flex-col gap-[12px] items-start self-stretch">
+        <div className="flex flex-col gap-[8px] items-start w-full">
+          <div className="bg-[#f3f4f6] px-[6px] py-[2px] rounded-[4px]">
+            <p className="font-['Pretendard:semibold'] text-[#6b7280] text-[12px]">{product.category}</p>
           </div>
-          <div className="content-stretch flex items-center relative shrink-0 w-full">
-            <p className="flex-[1_0_0] font-['Pretendard:semibold',sans-serif] leading-[normal] min-h-px min-w-px not-italic relative text-[#1f2937] text-[16px]">
-              {product.name}
-            </p>
-          </div>
-          <div className="content-stretch flex items-center justify-center relative shrink-0">
-            <p className="font-['Pretendard:semibold',sans-serif] leading-[normal] not-italic overflow-hidden relative shrink-0 text-[#6b7280] text-[12px] text-ellipsis whitespace-nowrap">
-              {product.distributor}
-            </p>
-          </div>
+          <p className="font-['Pretendard:semibold'] text-[#1f2937] text-[16px] leading-tight">{product.name}</p>
+          <p className="font-['Pretendard:semibold'] text-[#6b7280] text-[12px] truncate w-full">{product.distributor}</p>
         </div>
-        <div className="content-stretch flex items-start relative shrink-0 w-full">
-          <p className="flex-[1_0_0] font-['Pretendard:regular',sans-serif] leading-[normal] min-h-px min-w-px not-italic relative text-[#1f2937] text-[12px]">
-            이스라엘산 {product.israeliIngredients.join(', ')} 포함
-          </p>
+        <div className="mt-auto">
+          <p className="font-['Pretendard:regular'] text-[#1f2937] text-[12px]">이스라엘산 {product.israeliIngredients.join(', ')} 포함</p>
         </div>
       </div>
+
+      {/* 이미지가 있는 ID 리스트에 포함되어 있다면 렌더링 */}
+      {hasImage && (
+        <div className="overflow-clip relative rounded-[4px] shrink-0 size-[108px] bg-gray-50">
+          <img alt={product.name} className="absolute inset-0 object-cover size-full" src={imageUrl} />
+          <div className="absolute bg-[rgba(31,41,55,0.02)] inset-0" />
+        </div>
+      )}
     </div>
   );
 }
@@ -79,6 +77,7 @@ function FilterButton({
 
 export default function App() {
   const allProducts = productsData.products as Product[];
+  const imageSet = useMemo(() => new Set(availableImages), []);
 
   // Filter only products on sale
   const products = useMemo(() => {
@@ -175,8 +174,12 @@ export default function App() {
 
       {/* Product List */}
       <div className="flex flex-col gap-[12px] p-[16px] w-full">
-        {filteredProducts.map((product, index) => (
-          <ProductCard key={index} product={product} />
+        {filteredProducts.map((product) => (
+          <ProductCard 
+            key={product.id} 
+            product={product} 
+            hasImage={imageSet.has(product.id)} 
+          />
         ))}
       </div>
 
