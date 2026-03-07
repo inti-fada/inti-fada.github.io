@@ -31,7 +31,7 @@ function ProductCard({ product, hasImage }: { product: Product; hasImage: boolea
       {hasImage && (
         <div className="overflow-clip relative rounded-[4px] shrink-0 size-[108px] bg-gray-50">
           <img alt={product.name} className="absolute inset-0 object-cover size-full" src={imageUrl} />
-          <div className="absolute bg-[rgba(31,41,55,0.02)] inset-0" />
+          <div className="absolute bg-[rgba(31,41,55,0.03)] inset-0" />
         </div>
       )}
     </div>
