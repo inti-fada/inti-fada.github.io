@@ -12,7 +12,7 @@ interface Product {
 }
 
 function ProductCard({ product, hasImage }: { product: Product; hasImage: boolean }) {
-  const imageUrl = `/products/${product.id}.webp`;
+  const imageUrl = `/thumbnails/${product.id}.webp`;
 
   return (
     <div className="bg-white flex items-start p-[12px] relative rounded-[8px] w-full border border-[#e5e7eb] gap-[12px] min-h-[120px]">
@@ -28,8 +28,6 @@ function ProductCard({ product, hasImage }: { product: Product; hasImage: boolea
           <p className="font-['Pretendard:regular'] text-[#1f2937] text-[12px]">이스라엘산 {product.israeliIngredients.join(', ')} 포함</p>
         </div>
       </div>
-
-      {/* 이미지가 있는 ID 리스트에 포함되어 있다면 렌더링 */}
       {hasImage && (
         <div className="overflow-clip relative rounded-[4px] shrink-0 size-[108px] bg-gray-50">
           <img alt={product.name} className="absolute inset-0 object-cover size-full" src={imageUrl} />
