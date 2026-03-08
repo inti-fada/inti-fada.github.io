@@ -797,7 +797,7 @@
       "distributor": "삼양사",
       "category": "숙취해소제",
       "name": "상쾌환 부스터 숙취해소",
-      "israeliIngredients": ["망고농축액, 바나나농축액, 메론농축액"],
+      "israeliIngredients": ["망고농축액", "바나나농축액", "메론농축액"],
       "state": "onSale"
     },
     {
@@ -805,7 +805,7 @@
       "distributor": "삼양사",
       "category": "숙취해소제",
       "name": "상쾌환 스틱 망고맛",
-      "israeliIngredients": ["망고농축액, 망고퓌레"],
+      "israeliIngredients": ["망고농축액", "망고퓌레"],
       "state": "onSale"
     },
     {
@@ -1862,6 +1862,22 @@
       "category": "주류",
       "name": "아망추 하이볼",
       "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "234",
+      "distributor": "hy",
+      "category": "가공유",
+      "name": "감숙왕 딸기바나나우유",
+      "israeliIngredients": ["딸기농축액","바나나농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "235",
+      "distributor": "hy",
+      "category": "가공유",
+      "name": "감숙왕 초코바나나우유",
+      "israeliIngredients": ["바나나농축액"],
       "state": "onSale"
     }
   ]
