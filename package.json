@@ -1,10 +1,10 @@
 {
-  "name": "@figma/my-make-file",
+  "name": "bds-food-product-archive",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "build": "vite build",
+    "build": "npm run gen-img && vite build",
     "dev": "vite",
     "gen-img": "node scripts/generateImageList.js"
   },
