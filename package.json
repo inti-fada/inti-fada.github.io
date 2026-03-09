@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm run gen-img && vite build",
     "dev": "vite",
-    "gen-img": "node scripts/generateImageList.js"
+    "gen-img": "node scripts/generateImageList.cjs"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
