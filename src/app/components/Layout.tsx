@@ -7,8 +7,14 @@ const Layout = forwardRef<HTMLDivElement, { children: React.ReactNode }>(
     const [menuOpen, setMenuOpen] = useState(false);
     const navigate = useNavigate();
     const handleLogoClick = () => {
-      navigate('/');
       setMenuOpen(false);
+      if (location.pathname === '/') {
+        if (ref && 'current' in ref && ref.current) {
+          ref.current.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      } else {
+        navigate('/');
+      }
     };
 
     return (
@@ -20,7 +26,7 @@ const Layout = forwardRef<HTMLDivElement, { children: React.ReactNode }>(
         <div className="fixed bg-white top-[52px] left-0 right-0 bottom-0 max-w-[480px] mx-auto flex flex-col justify-between pb-[24px] px-[12px] z-[50] overflow-y-auto">
           <div className="flex flex-col w-full">
             <MenuItem label="🔍 이스라엘산 과일 원료 포함 식품 목록" onClick={() => { navigate('/'); setMenuOpen(false); }} />
-            <MenuItem label="❓ 왜 이스라엘산 과일이 문제인가요?" onClick={() => { navigate('/article'); setMenuOpen(false); }} />
+            <MenuItem label="❓ 왜 이스라엘산 과일이 문제인가요?" onClick={() => { navigate('/campaign-background'); setMenuOpen(false); }} />
             <MenuItem label="📮 제보하기" isOutlink href="https://forms.gle/3kKMPJrdXr9dK7tUA" />
           </div>
           

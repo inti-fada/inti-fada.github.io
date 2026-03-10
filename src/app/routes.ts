@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router";
 import Home from "./pages/Home";
-import ArticlePage from "./pages/ArticlePage";
+import CampaignBackground from "./pages/CampaignBackground";
 
 export const router = createBrowserRouter([
   {
@@ -8,7 +8,7 @@ export const router = createBrowserRouter([
     Component: Home,
   },
   {
-    path: "/article",
-    Component: ArticlePage,
+    path: "/campaign-background",
+    Component: CampaignBackground,
   },
 ]);
