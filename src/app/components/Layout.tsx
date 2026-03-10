@@ -21,7 +21,7 @@ const Layout = forwardRef<HTMLDivElement, { children: React.ReactNode }>(
           <div className="flex flex-col w-full">
             <MenuItem label="🔍 이스라엘산 과일 원료 포함 식품 목록" onClick={() => { navigate('/'); setMenuOpen(false); }} />
             <MenuItem label="❓ 왜 이스라엘산 과일이 문제인가요?" onClick={() => { navigate('/article'); setMenuOpen(false); }} />
-            <MenuItem label="📣 제보하기" isOutlink href="https://forms.gle/3kKMPJrdXr9dK7tUA" />
+            <MenuItem label="📮 제보하기" isOutlink href="https://forms.gle/3kKMPJrdXr9dK7tUA" />
           </div>
           
           <div className="flex flex-col w-full">

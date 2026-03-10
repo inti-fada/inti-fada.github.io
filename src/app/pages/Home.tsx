@@ -103,6 +103,7 @@ export default function Home() {
                 onClick={() => setSelectedCategory(category)}
               />
             ))}
+            <div className="w-[8px] shrink-0 h-px" aria-hidden="true" />
           </div>
         </div>
       </div>
