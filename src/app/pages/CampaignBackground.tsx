@@ -82,7 +82,7 @@ function Actions() {
   return (
     <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-name="Actions">
       <div className="content-stretch flex items-center justify-center relative shrink-0 w-full" data-name="ArticleSubtitle">
-        <p className="flex-[1_0_0] font-['Pretendard:semibold',sans-serif] leading-[22px] min-h-px min-w-px not-italic relative text-[#1f2937] text-[18px]">✍️ 관련 서명 운동</p>
+        <p className="flex-[1_0_0] font-['Pretendard:semibold',sans-serif] leading-[22px] min-h-px min-w-px not-italic relative text-[#1f2937] text-[18px]">✍️ 서명 참여하기</p>
       </div>
       <div className="content-stretch flex items-center justify-center relative shrink-0 w-full" data-name="ArticleParagraph">
         <ul className="block flex-[1_0_0] font-['Pretendard:regular',sans-serif] leading-[0] list-disc pl-5 gap-[12px] min-h-px min-w-px not-italic relative text-[#1f2937] whitespace-pre-wrap">
