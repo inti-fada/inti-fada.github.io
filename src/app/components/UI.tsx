@@ -24,7 +24,7 @@ export function SocialLink({ href, icon, label, isMultiline = false }: { href: s
   return (
     <a className="min-h-[28px] w-full" href={href} target="_blank" rel="noopener noreferrer">
       <div className="flex gap-[4px] items-start px-[8px] py-[6px]">
-        <img src={icon} className="size-[16px] shrink-0 mt-[2px]" alt="" />
+        <img src={icon} className="size-[16px] shrink-0"/>
         <p className={`text-[#6b7280] text-[12px] leading-[1.4] ${isMultiline ? 'whitespace-normal break-keep' : 'truncate'}`}>
           {label}
         </p>
