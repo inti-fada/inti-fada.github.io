@@ -7,12 +7,11 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  overscroll-behavior: contain;
 }
 
 body {
   font-family: var(--font-regular);
-  background-color: #f9fafb;
+  background-color: #f9fafb;  
   -webkit-font-smoothing: antialiased;
 }
 
@@ -93,12 +92,9 @@ body {
 
 .header {
   background-color: var(--color-bg-white);
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
   width: 100%;
-  max-width: var(--layout-max-width);
   z-index: var(--z-header);
   border-bottom: 1px solid var(--color-border-light);
 }
@@ -125,7 +121,6 @@ body {
   gap: var(--spacing-section);
   width: 100%;
   padding: var(--spacing-xl) var(--spacing-lg);
-  padding-top: calc(var(--header-height) + var(--spacing-xl));
   box-sizing: border-box;
 }
 
@@ -275,16 +270,11 @@ body {
 /* Filter Bar */
 .filter-bar {
   background-color: var(--color-bg-white);
-  position: fixed;
-  top: var(--header-height);
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  max-width: var(--layout-max-width);
-  z-index: var(--z-filter);
+  position: sticky;
+  top: 53px; /* header height + 1px border */
+  z-index: 20;
   border-bottom: 1px solid var(--color-border-light);
-  box-sizing: border-box;
-  overflow: hidden;
+  width: 100%;
 }
 
 .filter-scroll-container {
@@ -293,7 +283,6 @@ body {
   padding: 10px var(--spacing-lg);
   align-items: center;
   overflow-x: auto;
-  overflow-y: hidden;
   white-space: nowrap;
   -ms-overflow-style: none; /* IE/Edge */
   scrollbar-width: none; /* Firefox */
@@ -311,7 +300,6 @@ body {
   gap: var(--spacing-section);
   width: 100%;
   padding: var(--spacing-xl) var(--spacing-lg);
-  padding-top: calc(var(--header-height) + 72px);
   box-sizing: border-box;
 }
 

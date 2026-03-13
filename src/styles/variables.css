@@ -51,9 +51,8 @@
   --border-radius-lg: 16px;
 
   /* ===== Z-index ===== */
-  --z-header: 100;
-  --z-filter: 99;
-  --z-menu: 101;
+  --z-header: 40;
+  --z-menu: 50;
 
   /* ===== Transitions ===== */
   --transition-default: all 0.2s ease;
