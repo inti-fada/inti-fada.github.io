@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "build": "npm run gen-img && vite build",
+    "build": "npm run gen-img && vite build && react-scripts build && react-snap",
     "dev": "vite",
     "gen-img": "node scripts/generateImageList.cjs"
   },
@@ -69,6 +69,7 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "4.7.0",
+    "react-snap": "^1.13.1",
     "tailwindcss": "4.1.12",
     "vite": "^6.4.1"
   },
@@ -88,5 +89,8 @@
     "overrides": {
       "vite": "6.3.5"
     }
+  },
+  "reactSnap": {
+  "include": ["/", "/campaign-background"]
   }
 }
