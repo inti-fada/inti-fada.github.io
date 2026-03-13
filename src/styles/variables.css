@@ -20,16 +20,21 @@
   --font-medium: 'Pretendard:medium', sans-serif;
   --font-regular: 'Pretendard:regular', sans-serif;
 
-  --size-title: 18px;
-  --size-body: 16px;
-  --size-body-alt: 14px;
-  --size-caption: 12px;
+  --font-size-title: 18px;
+  --font-size-body: 16px;
+  --font-size-body-alt: 14px;
+  --font-size-caption: 12px;
 
   --line-height-body: 26px;
   --line-height-title: 22px;
 
+  --leter-spacing-base: 0;
+  --leter-spacing-tight: -0.02em;
+  --leter-spacing-wide: 0.02em;
+
   /* ===== Spacing ===== */
-  --spacing-xs: 4px;
+  --spacing-2xs:4px;
+  --spacing-xs: 6px;
   --spacing-sm: 8px;
   --spacing-md: 12px;
   --spacing-lg: 16px;
@@ -44,6 +49,17 @@
   /* ===== Layout ===== */
   --layout-max-width: 480px;
   --header-height: 52px;
+
+  /* ===== Length ===== */
+  --length-2: 16px;
+  --length-6: 32px;
+  --length-7: 44px;
+  --length-11: 108px;
+  --length-12: 120px;
+
+  /* ===== Border Thickness ===== */
+  --border-thickness-default: 1px;
+  --border-thickness-bold: 2px;
 
   /* ===== Border Radius ===== */
   --border-radius-sm: 4px;
