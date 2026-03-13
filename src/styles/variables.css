@@ -1,0 +1,63 @@
+:root {
+  /* ===== Colors ===== */
+  --color-bg-main: #f9fafb;
+  --color-bg-secondary: #f3f4f6;
+  --color-bg-white: #ffffff;
+  --color-bg-overlay: rgba(31, 41, 55, 0.03);
+
+  --color-text-primary: #1f2937;
+  --color-text-muted: #9ca3af;
+  --color-text-secondary: #6b7280;
+
+  --color-accent-rose: #f43f5e;
+
+  --color-border-light: #e5e7eb;
+  --color-shadow-default: rgba(0, 0, 0, 0.1);
+
+  /* ===== Typography ===== */
+  --font-bold: 'Pretendard:bold', sans-serif;
+  --font-semibold: 'Pretendard:semibold', sans-serif;
+  --font-medium: 'Pretendard:medium', sans-serif;
+  --font-regular: 'Pretendard:regular', sans-serif;
+
+  --size-title: 18px;
+  --size-body: 16px;
+  --size-body-alt: 14px;
+  --size-caption: 12px;
+
+  --line-height-body: 26px;
+  --line-height-title: 22px;
+
+  /* ===== Spacing ===== */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 20px;
+  --spacing-2xl: 32px;
+
+  --spacing-section: 32px;
+  --spacing-content-gap: 20px;
+  --spacing-element-gap: 8px;
+  --spacing-paragraph-margin: 14px;
+
+  /* ===== Layout ===== */
+  --layout-max-width: 480px;
+  --header-height: 52px;
+
+  /* ===== Border Radius ===== */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 16px;
+
+  /* ===== Z-index ===== */
+  --z-header: 40;
+  --z-menu: 50;
+
+  /* ===== Transitions ===== */
+  --transition-default: all 0.2s ease;
+  --transition-color: color 0.2s ease;
+
+  /* ===== Shadows ===== */
+  --shadow-default: 0 0 20px 0 var(--color-shadow-default);
+}

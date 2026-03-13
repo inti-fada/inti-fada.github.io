@@ -1,7 +1,6 @@
 ## 🧐 이스라엘산 들어갔나요?
 
 이스라엘산 원재료를 사용한 가공식품을 쉽게 찾아볼 수 있게 합니다.\
-[Figma Design](https://www.figma.com/design)으로 설계하고 [Figma Make](https://www.figma.com/make)로 구현했습니다.\
 잘못된 정보나 추가해야 할 제품이 있다면 [여기](https://forms.gle/3kKMPJrdXr9dK7tUA)로 제보해 주세요.
 
 이후에 예정되어 있는 업데이트는 다음과 같습니다.
