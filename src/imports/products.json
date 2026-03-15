@@ -1879,6 +1879,118 @@
       "name": "감숙왕 초코바나나우유",
       "israeliIngredients": ["바나나농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "236",
+      "distributor": "BGF리테일",
+      "category": "음료",
+      "name": "delaffe 복숭아 아이스티",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "237",
+      "distributor": "태웅식품",
+      "category": "음료",
+      "name": "라이브타임 복숭아 아이스티",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "238",
+      "distributor": "연세대학교 연세유업",
+      "category": "음료",
+      "name": "과채데이 레드",
+      "israeliIngredients": ["사과농축액", "딸기농축액", "레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "239",
+      "distributor": "연세대학교 연세유업",
+      "category": "음료",
+      "name": "과채데이 옐로우",
+      "israeliIngredients": ["사과농축액", "열대과일혼합농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "240",
+      "distributor": "일동후디스",
+      "category": "음료",
+      "name": "하이뮨 프로틴 밸런스 액티브 바나나",
+      "israeliIngredients": ["바나나농축액", "바나나농축분말"],
+      "state": "onSale"
+    },
+    {
+      "id": "241",
+      "distributor": "일동후디스",
+      "category": "음료",
+      "name": "하이뮨 프로틴 밸런스 액티브 딸기",
+      "israeliIngredients": ["딸기농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "242",
+      "distributor": "GS리테일",
+      "category": "가공유",
+      "name": "춘식이 딸기바나나 우유",
+      "israeliIngredients": ["딸기농축과즙"],
+      "state": "onSale"
+    },
+    {
+      "id": "243",
+      "distributor": "GS리테일",
+      "category": "가공유",
+      "name": "춘식이 바나나우유",
+      "israeliIngredients": ["바나나농축과즙"],
+      "state": "unclear"
+    },
+    {
+      "id": "244",
+      "distributor": "GS리테일",
+      "category": "가공유",
+      "name": "춘식이 멜론우유",
+      "israeliIngredients": ["멜론농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "245",
+      "distributor": "hy",
+      "category": "숙취해소제",
+      "name": "쿠퍼스 깨곰 스틱 복숭아맛",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "246",
+      "distributor": "hy",
+      "category": "숙취해소제",
+      "name": "쿠퍼스 깨곰 스틱 트로피컬맛",
+      "israeliIngredients": ["열대혼합과일농축액", "패션후르츠농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "247",
+      "distributor": "종근당건강",
+      "category": "기타",
+      "name": "아임비타 멀티비타민 글루타치온샷",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "248",
+      "distributor": "빙그레",
+      "category": "디저트",
+      "name": "곤약젤리 복숭아",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "249",
+      "distributor": "비알코리아",
+      "category": "음료",
+      "name": "블랙소르베 워터젤리",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
     }
   ]
 }
