@@ -1999,6 +1999,14 @@
       "name": "리얼프라이스 그릭요거트 딸기",
       "israeliIngredients": ["딸기농축과즙"],
       "state": "onSale"
+    },
+    {
+      "id": "251",
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "매일야채 고농축 호박의 힘",
+      "israeliIngredients": ["바나나농축액"],
+      "state": "onSale"
     }
   ]
 }
