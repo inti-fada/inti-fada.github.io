@@ -1941,8 +1941,8 @@
       "distributor": "GS리테일",
       "category": "가공유",
       "name": "춘식이 바나나우유",
-      "israeliIngredients": ["바나나농축과즙"],
-      "state": "unclear"
+      "israeliIngredients": ["바나나농축액"],
+      "state": "onSale"
     },
     {
       "id": "244",
@@ -1990,6 +1990,14 @@
       "category": "음료",
       "name": "블랙소르베 워터젤리",
       "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "250",
+      "distributor": "GS리테일",
+      "category": "요거트",
+      "name": "리얼프라이스 그릭요거트 딸기",
+      "israeliIngredients": ["딸기농축과즙"],
       "state": "onSale"
     }
   ]
