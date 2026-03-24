@@ -2007,6 +2007,14 @@
       "name": "매일야채 고농축 호박의 힘",
       "israeliIngredients": ["바나나농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "252",
+      "distributor": "일화",
+      "category": "음료",
+      "name": "에버데이 제로 이온",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
     }
   ]
 }
