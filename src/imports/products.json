@@ -2015,6 +2015,14 @@
       "name": "에버데이 제로 이온",
       "israeliIngredients": ["복숭아농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "253",
+      "distributor": "어댑트",
+      "category": "음료",
+      "name": "푸드올로지 터보 붐 워터",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
     }
   ]
 }
