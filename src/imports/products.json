@@ -2023,6 +2023,38 @@
       "name": "푸드올로지 터보 붐 워터",
       "israeliIngredients": ["레몬농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "254",
+      "distributor": "오뚜기",
+      "category": "조미료/소스",
+      "name": "메밀소바장국",
+      "israeliIngredients": ["레몬농축과즙"],
+      "state": "onSale"
+    },
+    {
+      "id": "255",
+      "distributor": "오뚜기",
+      "category": "조미료/소스",
+      "name": "미향",
+      "israeliIngredients": ["레몬농축과즙"],
+      "state": "onSale"
+    },
+    {
+      "id": "256",
+      "distributor": "CJ제일제당",
+      "category": "조미료/소스",
+      "name": "건강발효 레몬식초",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "unclear"
+    },
+    {
+      "id": "257",
+      "distributor": "CJ제일제당",
+      "category": "조미료/소스",
+      "name": "지중해산 레몬으로 만든 레몬식초",
+      "israeliIngredients": ["레몬착즙농축액"],
+      "state": "unclear"
     }
   ]
 }
