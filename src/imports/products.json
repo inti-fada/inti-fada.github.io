@@ -2055,6 +2055,13 @@
       "name": "지중해산 레몬으로 만든 레몬식초",
       "israeliIngredients": ["레몬착즙농축액"],
       "state": "unclear"
-    }
+    },
+    {
+      "id": "258",
+      "distributor": "풀무원",
+      "category": "조미료/소스",
+      "name": "레몬갈릭 드레싱",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"}
   ]
 }
