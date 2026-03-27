@@ -2062,6 +2062,31 @@
       "category": "조미료/소스",
       "name": "레몬갈릭 드레싱",
       "israeliIngredients": ["레몬농축액"],
-      "state": "onSale"}
+      "state": "onSale"
+    },
+    {
+      "id": "259",
+      "distributor": "이마트",
+      "category": "음료",
+      "name": "노브랜드 망고바나나 어린이음료",
+      "israeliIngredients": ["망고농축퓨레"],
+      "state": "onSale"
+    },
+    {
+      "id": "260",
+      "distributor": "이마트",
+      "category": "음료",
+      "name": "노브랜드 자몽과즙에이드",
+      "israeliIngredients": ["레드자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "261",
+      "distributor": "이마트",
+      "category": "음료",
+      "name": "노브랜드 딸기 어린이음료",
+      "israeliIngredients": ["딸기농축액"],
+      "state": "onSale"
+    }
   ]
 }
