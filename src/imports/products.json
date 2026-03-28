@@ -2087,6 +2087,78 @@
       "name": "노브랜드 딸기 어린이음료",
       "israeliIngredients": ["딸기농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "262",
+      "distributor": "홈플러스",
+      "category": "음료",
+      "name": "simplus 복숭아쿨",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "263",
+      "distributor": "미트뱅크",
+      "category": "기타",
+      "name": "돼지양념칼집구이",
+      "israeliIngredients": ["레몬농축과즙"],
+      "state": "onSale"
+    },
+    {
+      "id": "264",
+      "distributor": "미트벨리",
+      "category": "기타",
+      "name": "초량식 양념돼지 칼집구이",
+      "israeliIngredients": ["레몬농축과즙"],
+      "state": "onSale"
+    },
+    {
+      "id": "265",
+      "distributor": "샘표",
+      "category": "조미료/소스",
+      "name": "폰타나 오리엔탈 드레싱",
+      "israeliIngredients": ["레몬농축과즙"],
+      "state": "onSale"
+    },
+    {
+      "id": "266",
+      "distributor": "SPC삼립",
+      "category": "조미료/소스",
+      "name": "피그인더가든 포켓 레몬크림 드레싱",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "267",
+      "distributor": "SPC삼립",
+      "category": "조미료/소스",
+      "name": "피그인더가든 저당 데리야끼소스",
+      "israeliIngredients": ["레몬농축과즙"],
+      "state": "onSale"
+    },
+    {
+      "id": "268",
+      "distributor": "샐러드판다",
+      "category": "조미료/소스",
+      "name": "판다의 저당 드레싱 참깨피넛",
+      "israeliIngredients": ["레몬농축과즙"],
+      "state": "onSale"
+    },
+    {
+      "id": "269",
+      "distributor": "샘표",
+      "category": "조미료/소스",
+      "name": "새미네부엌 모듬야채 수제피클소스",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "270",
+      "distributor": "동원홈푸드",
+      "category": "조미료/소스",
+      "name": "비비드키친 저칼로리 데리야끼소스",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
     }
   ]
 }
