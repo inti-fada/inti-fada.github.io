@@ -78,7 +78,7 @@ export default function Home() {
             isActive={selectedCategory === null}
             onClick={() => setSelectedCategory(null)}
           />
-          {categories.map((category) => (
+          {categories.filter(c => c !== '기타').map((category) => (
             <FilterButton 
               key={category}
               label={category} 
@@ -86,6 +86,14 @@ export default function Home() {
               onClick={() => setSelectedCategory(category)}
             />
           ))}
+          {categories.includes('기타') && (
+            <FilterButton 
+              key="기타"
+              label="기타" 
+              isActive={selectedCategory === '기타'}
+              onClick={() => setSelectedCategory('기타')}
+            />
+          )}
         </div>
       </nav>
       <main className="product-list-container">
