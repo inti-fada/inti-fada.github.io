@@ -70,7 +70,7 @@ export default function Home() {
   }, [selectedCategory]);
 
   return (
-    <Layout>
+    <Layout showSearchButton={true}>
       <nav className="filter-bar">
         <div className="filter-scroll-container">
           <FilterButton 

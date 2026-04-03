@@ -32,9 +32,10 @@ const MenuItem: React.FC<MenuItemProps> = ({ label, onClick, isOutlink, href }) 
   );
 };
 
-const Layout = forwardRef<HTMLDivElement, { children: React.ReactNode }>(
-  ({ children }, ref) => {
+const Layout = forwardRef<HTMLDivElement, { children: React.ReactNode; showSearchButton?: boolean }>(
+  ({ children, showSearchButton = false }, ref) => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const [searchOpen, setSearchOpen] = useState(false);
     const navigate = useNavigate();
     const location = useLocation();
 
@@ -62,8 +63,21 @@ const Layout = forwardRef<HTMLDivElement, { children: React.ReactNode }>(
       }
     };
 
-    const toggleMenu = () => setMenuOpen((prev) => !prev);
+    const handleMenuClick = () => {
+      if (searchOpen) {
+        setSearchOpen(false);
+      } else {
+        setMenuOpen((prev) => !prev);
+      }
+    };
+
+    const toggleMenu = () => handleMenuClick();
     const closeMenu = () => setMenuOpen(false);
+
+    const handleSearchClick = () => {
+      setMenuOpen(false);
+      setSearchOpen(true);
+    };
 
     return (
       <div ref={ref} className="layout-wrapper">
@@ -87,17 +101,36 @@ const Layout = forwardRef<HTMLDivElement, { children: React.ReactNode }>(
           <div className="header-inner">
             <button 
               className="icon-button" 
-              onClick={toggleMenu}
+              onClick={handleMenuClick}
             >
               <img 
-                src={menuOpen ? "/ui-assets/close.svg" : "/ui-assets/menu.svg"} 
+                src={(menuOpen || searchOpen) ? "/ui-assets/close.svg" : "/ui-assets/menu.svg"} 
                 className="size-[24px]" 
               />
             </button>
             
-            <div className="cursor-pointer flex items-center" onClick={handleLogoClick}>
-              <span className="header-title">🧐 이스라엘산 들어갔나요?</span>
+            <div className="flex items-center flex-1">
+              {searchOpen ? (
+                <input 
+                  type="text"
+                  placeholder="검색..."
+                  className="search-input"
+                  autoFocus
+                />
+              ) : (
+                <span className="cursor-pointer header-title" onClick={handleLogoClick}>🧐 이스라엘산 들어갔나요?</span>
+              )}
             </div>
+
+            <button 
+              className={`icon-button ${(menuOpen || !showSearchButton) ? 'hidden' : ''}`}
+              onClick={handleSearchClick}
+            >
+              <img 
+                src="/ui-assets/search.svg" 
+                className="size-[24px]" 
+              />
+            </button>
           </div>
         </header>
 

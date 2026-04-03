@@ -19,6 +19,10 @@ body {
   overflow: hidden;
 }
 
+.hidden {
+  display: none!important;
+}
+
 /* Hide scrollbars */
 * {
   scrollbar-width: none; /* Firefox */
@@ -102,7 +106,6 @@ body {
 .header-inner {
   display: flex;
   align-items: center;
-  padding-right: var(--spacing-lg);
   height: var(--header-height);
 }
 
@@ -113,6 +116,16 @@ body {
   line-height: var(--line-height-title);
   color: var(--color-text-primary);
   letter-spacing: var(--letter-spacing-tight);
+}
+
+.search-input {
+  font-size: var(--font-size-body);
+  padding: var(--spacing-2xs) var(--spacing-md);
+  border-radius: var(--border-radius-lg);
+  background-color: var(--color-bg-secondary);
+  border: none;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .article-container {
