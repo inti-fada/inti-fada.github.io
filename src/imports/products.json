@@ -1869,7 +1869,7 @@
       "distributor": "hy",
       "category": "가공유",
       "name": "감숙왕 딸기바나나우유",
-      "israeliIngredients": ["딸기농축액","바나나농축액"],
+      "israeliIngredients": ["딸기농축액", "바나나농축액"],
       "state": "onSale"
     },
     {
@@ -1884,7 +1884,7 @@
       "id": "236",
       "distributor": "BGF리테일",
       "category": "음료",
-      "name": "delaffe 복숭아 아이스티",
+      "name": "delaffe 복숭아아이스티",
       "israeliIngredients": ["복숭아농축액"],
       "state": "onSale"
     },
@@ -2058,7 +2058,7 @@
     },
     {
       "id": "258",
-      "distributor": "풀무원",
+      "distributor": "풀무원식품",
       "category": "조미료/소스",
       "name": "레몬갈릭 드레싱",
       "israeliIngredients": ["레몬농축액"],
@@ -2205,7 +2205,7 @@
       "distributor": "이디야",
       "category": "음료",
       "name": "이디야 복숭아맛 제로 아이스티",
-      "israeliIngredients": ["망고농축액","복숭아농축액"],
+      "israeliIngredients": ["망고농축액", "복숭아농축액"],
       "state": "onSale"
     },
     {
@@ -2270,6 +2270,270 @@
       "category": "디저트",
       "name": "양쯔깐루 스타일 망고자몽 펄케익",
       "israeliIngredients": ["레드자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "285",
+      "distributor": "세븐브로이맥주",
+      "category": "주류",
+      "name": "은하수 오션브리즈",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "286",
+      "distributor": "세븐브로이맥주",
+      "category": "주류",
+      "name": "은하수 핑크샌즈",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "287",
+      "distributor": "일화",
+      "category": "음료",
+      "name": "팅글 레몬애사비 소다",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "288",
+      "distributor": "뉴트리원",
+      "category": "기타",
+      "name": "비비랩 올리브 레몬 밸런스샷",
+      "israeliIngredients": ["열대혼합과일농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "289",
+      "distributor": "바이오포트코리아",
+      "category": "음료",
+      "name": "꿀레몬생강",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "290",
+      "distributor": "제나",
+      "category": "아이스크림",
+      "name": "레몬 캔샤베트",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "291",
+      "distributor": "대상",
+      "category": "음료",
+      "name": "청정원 홍초 자몽",
+      "israeliIngredients": ["적자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "292",
+      "distributor": "서영이앤티",
+      "category": "숙취해소제",
+      "name": "모닝이즈백 스틱 레몬",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "293",
+      "distributor": "빙그레",
+      "category": "음료",
+      "name": "아이스티 레몬",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "294",
+      "distributor": "빙그레",
+      "category": "음료",
+      "name": "아이스티 복숭아",
+      "israeliIngredients": ["복숭아농축과즙"],
+      "state": "onSale"
+    },
+    {
+      "id": "295",
+      "distributor": "빙그레",
+      "category": "음료",
+      "name": "제로 아이스티 복숭아",
+      "israeliIngredients": ["복숭아농축과즙"],
+      "state": "onSale"
+    },
+    {
+      "id": "296",
+      "distributor": "건강한사람들",
+      "category": "음료",
+      "name": "레몬스파클링",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "297",
+      "distributor": "롯데칠성음료",
+      "category": "음료",
+      "name": "델몬트 허니 레몬 & 배 로어슈거 ",
+      "israeliIngredients": ["레몬청징농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "298",
+      "distributor": "SPC삼립",
+      "category": "음료",
+      "name": "티트라 레몬그린티 제로",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "299",
+      "distributor": "SPC삼립",
+      "category": "음료",
+      "name": "티트라 피치아쌈티 제로",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "300",
+      "distributor": "티움글로벌",
+      "category": "음료",
+      "name": "위글위글 스파클링제로버블 레몬맛",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "301",
+      "distributor": "빙그레",
+      "category": "요거트",
+      "name": "요플레 YOP 레몬",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "302",
+      "distributor": "빙그레",
+      "category": "요거트",
+      "name": "요플레 YOP 딸기",
+      "israeliIngredients": ["딸기농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "303",
+      "distributor": "풀무원샘물",
+      "category": "음료",
+      "name": "풀무원 스파클링 브리지톡 피치블랙티제로",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "304",
+      "distributor": "풀무원샘물",
+      "category": "음료",
+      "name": "풀무원 스파클링 브리지톡 레몬토닉제로",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "305",
+      "distributor": "BGF리테일",
+      "category": "음료",
+      "name": "delaffe 말차레몬에이드 제로",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "306",
+      "distributor": "BGF리테일",
+      "category": "음료",
+      "name": "delaffe 아망추",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "307",
+      "distributor": "BGF리테일",
+      "category": "음료",
+      "name": "delaffe 라임모히또에이드",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "308",
+      "distributor": "BGF리테일",
+      "category": "음료",
+      "name": "delaffe 복숭아아이스티 제로",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "309",
+      "distributor": "BGF리테일",
+      "category": "음료",
+      "name": "delaffe PLUS 키위바나나블렌디드",
+      "israeliIngredients": ["바나나농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "310",
+      "distributor": "BGF리테일",
+      "category": "음료",
+      "name": "delaffe 메론팝핑톡",
+      "israeliIngredients": ["메론농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "311",
+      "distributor": "BGF리테일",
+      "category": "음료",
+      "name": "delaffe 레몬팝핑톡",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "312",
+      "distributor": "BGF리테일",
+      "category": "음료",
+      "name": "delaffe 자몽우바아이스티",
+      "israeliIngredients": ["자몽주스농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "313",
+      "distributor": "BGF리테일",
+      "category": "음료",
+      "name": "delaffe 레몬얼그레이티",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "314",
+      "distributor": "BGF리테일",
+      "category": "음료",
+      "name": "delaffe 망고과즙에이드",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "315",
+      "distributor": "세븐브로이맥주",
+      "category": "주류",
+      "name": "블랙 네온 하이볼 레몬 토닉",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "316",
+      "distributor": "라이트힐 브루어리 앤드 디스틸러리",
+      "category": "주류",
+      "name": "효민사와 토마토",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "317",
+      "distributor": "카브루",
+      "category": "주류",
+      "name": "에일 메이크 미 스마일",
+      "israeliIngredients": ["레몬농축액"],
       "state": "onSale"
     }
   ]
