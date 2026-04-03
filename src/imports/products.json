@@ -2159,6 +2159,118 @@
       "name": "비비드키친 저칼로리 데리야끼소스",
       "israeliIngredients": ["레몬농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "271",
+      "distributor": "부루구루",
+      "category": "주류",
+      "name": "생자몽 하이볼",
+      "israeliIngredients": ["자몽컷"],
+      "state": "onSale"
+    },
+    {
+      "id": "272",
+      "distributor": "놀라운맥주",
+      "category": "주류",
+      "name": "스웨이 자몽",
+      "israeliIngredients": ["자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "273",
+      "distributor": "스퀴즈맥주",
+      "category": "주류",
+      "name": "자몽허니블랙티 하피볼",
+      "israeliIngredients": ["레드자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "274",
+      "distributor": "스퀴즈맥주",
+      "category": "주류",
+      "name": "멜론 하피볼",
+      "israeliIngredients": ["멜론농축분말"],
+      "state": "onSale"
+    },
+    {
+      "id": "275",
+      "distributor": "이디야",
+      "category": "음료",
+      "name": "이디야 자몽맛 제로 아이스티",
+      "israeliIngredients": ["레드자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "276",
+      "distributor": "이디야",
+      "category": "음료",
+      "name": "이디야 복숭아맛 제로 아이스티",
+      "israeliIngredients": ["망고농축액","복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "277",
+      "distributor": "이그니스",
+      "category": "음료",
+      "name": "클룹 바이탈자몽 스파클링 프레쉬",
+      "israeliIngredients": ["레드자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "278",
+      "distributor": "일화",
+      "category": "음료",
+      "name": "일화차시 제로 허니자몽블랙티",
+      "israeliIngredients": ["레드자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "279",
+      "distributor": "동원F&B",
+      "category": "음료",
+      "name": "덴마크 테이크 얼라이브 블렌드 자몽 히비스커스",
+      "israeliIngredients": ["레드자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "280",
+      "distributor": "동원F&B",
+      "category": "음료",
+      "name": "덴마크 테이크 얼라이브 블렌드 레몬 캐모마일",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "281",
+      "distributor": "롯데칠성음료",
+      "category": "음료",
+      "name": "델몬트 모아:비 자몽크랜베리",
+      "israeliIngredients": ["자몽청징농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "282",
+      "distributor": "롯데칠성음료",
+      "category": "음료",
+      "name": "델몬트 모아:비 레몬라벤더",
+      "israeliIngredients": ["레몬청징농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "283",
+      "distributor": "하이트진로음료",
+      "category": "음료",
+      "name": "티도씨 자몽 아이스티",
+      "israeliIngredients": ["레드자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "284",
+      "distributor": "조이푸드",
+      "category": "디저트",
+      "name": "양쯔깐루 스타일 망고자몽 펄케익",
+      "israeliIngredients": ["레드자몽농축액"],
+      "state": "onSale"
     }
   ]
 }
