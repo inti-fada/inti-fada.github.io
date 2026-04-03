@@ -119,6 +119,7 @@ body {
 }
 
 .search-input {
+  color: var(--color-text-primary);
   font-size: var(--font-size-body);
   padding: var(--spacing-2xs) var(--spacing-md);
   border-radius: var(--border-radius-lg);
