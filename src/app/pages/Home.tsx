@@ -49,6 +49,7 @@ export default function Home() {
   }, []);
 
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
 
   const categories = useMemo(() => {
     const counts = new Map<string, number>();
@@ -58,19 +59,28 @@ export default function Home() {
   }, [onSaleProducts]);
 
   const filteredProducts = useMemo(() => {
-    const list = selectedCategory 
+    let list = selectedCategory 
       ? onSaleProducts.filter(p => p.category === selectedCategory)
       : onSaleProducts;
     
+    if (searchQuery.trim()) {
+      const query = searchQuery.toLowerCase().replace(/\s/g, '');
+      list = list.filter(p => 
+        p.distributor.toLowerCase().replace(/\s/g, '').includes(query) ||
+        p.name.toLowerCase().replace(/\s/g, '').includes(query) ||
+        p.israeliIngredients.some(ing => ing.toLowerCase().replace(/\s/g, '').includes(query))
+      );
+    }
+    
     return [...list].sort((a, b) => a.name.localeCompare(b.name, 'ko'));
-  }, [onSaleProducts, selectedCategory]);
+  }, [onSaleProducts, selectedCategory, searchQuery]);
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [selectedCategory]);
 
   return (
-    <Layout showSearchButton={true}>
+    <Layout showSearchButton={true} onSearch={setSearchQuery}>
       <nav className="filter-bar">
         <div className="filter-scroll-container">
           <FilterButton 

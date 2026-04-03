@@ -32,10 +32,11 @@ const MenuItem: React.FC<MenuItemProps> = ({ label, onClick, isOutlink, href }) 
   );
 };
 
-const Layout = forwardRef<HTMLDivElement, { children: React.ReactNode; showSearchButton?: boolean }>(
-  ({ children, showSearchButton = false }, ref) => {
+const Layout = forwardRef<HTMLDivElement, { children: React.ReactNode; showSearchButton?: boolean; onSearch?: (query: string) => void }>(
+  ({ children, showSearchButton = false, onSearch }, ref) => {
     const [menuOpen, setMenuOpen] = useState(false);
     const [searchOpen, setSearchOpen] = useState(false);
+    const [searchQuery, setSearchQuery] = useState('');
     const navigate = useNavigate();
     const location = useLocation();
 
@@ -66,6 +67,8 @@ const Layout = forwardRef<HTMLDivElement, { children: React.ReactNode; showSearc
     const handleMenuClick = () => {
       if (searchOpen) {
         setSearchOpen(false);
+        setSearchQuery('');
+        onSearch?.('');
       } else {
         setMenuOpen((prev) => !prev);
       }
@@ -77,6 +80,12 @@ const Layout = forwardRef<HTMLDivElement, { children: React.ReactNode; showSearc
     const handleSearchClick = () => {
       setMenuOpen(false);
       setSearchOpen(true);
+    };
+
+    const handleSearchInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+      const query = e.target.value;
+      setSearchQuery(query);
+      onSearch?.(query);
     };
 
     return (
@@ -115,6 +124,8 @@ const Layout = forwardRef<HTMLDivElement, { children: React.ReactNode; showSearc
                   type="text"
                   placeholder="검색..."
                   className="search-input"
+                  value={searchQuery}
+                  onChange={handleSearchInputChange}
                   autoFocus
                 />
               ) : (
