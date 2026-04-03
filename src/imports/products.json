@@ -1612,7 +1612,7 @@
       "id": "202",
       "distributor": "BGF리테일",
       "category": "음료",
-      "name": "HEYROO 블루레몬에이드",
+      "name": "PBICK 블루레몬에이드",
       "israeliIngredients": ["레몬농축액"],
       "state": "onSale"
     },
@@ -2534,6 +2534,158 @@
       "category": "주류",
       "name": "에일 메이크 미 스마일",
       "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "318",
+      "distributor": "어메이징 브루잉 컴퍼니",
+      "category": "주류",
+      "name": "아마존 익스프레스",
+      "israeliIngredients": ["바나나농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "319",
+      "distributor": "경주법주",
+      "category": "주류",
+      "name": "경주법주 스윗망고",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "320",
+      "distributor": "우리술",
+      "category": "주류",
+      "name": "마쿠 망고",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "321",
+      "distributor": "서주",
+      "category": "아이스크림",
+      "name": "400바 멜론",
+      "israeliIngredients": ["메론농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "322",
+      "distributor": "빙그레",
+      "category": "아이스크림",
+      "name": "캔디바 메론소다",
+      "israeliIngredients": ["멜론농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "323",
+      "distributor": "동그린",
+      "category": "아이스크림",
+      "name": "망고 코코넛 포멜로",
+      "israeliIngredients": ["포멜로농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "324",
+      "distributor": "SPC삼립",
+      "category": "빵",
+      "name": "풍미가득 메론 치즈케익",
+      "israeliIngredients": ["멜론농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "325",
+      "distributor": "SPC삼립",
+      "category": "빵",
+      "name": "마법의망고 망고촉촉 치즈케익",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "326",
+      "distributor": "SPC삼립",
+      "category": "빵",
+      "name": "192겹 메론쉘파이",
+      "israeliIngredients": ["멜론농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "327",
+      "distributor": "엠즈베이커스",
+      "category": "빵",
+      "name": "한손에 초코바나나",
+      "israeliIngredients": ["바나나농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "328",
+      "distributor": "푸드코아",
+      "category": "빵",
+      "name": "연세우유 딸기바나나 생크림빵",
+      "israeliIngredients": ["바나나농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "329",
+      "distributor": "HK이노엔",
+      "category": "음료",
+      "name": "티로그 망고수박 아이스티",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "330",
+      "distributor": "바이오포트코리아",
+      "category": "음료",
+      "name": "망고에이드",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "331",
+      "distributor": "함소아제약",
+      "category": "음료",
+      "name": "액션가면 프로틴액트 바나나맛",
+      "israeliIngredients": ["바나나농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "332",
+      "distributor": "빙그레",
+      "category": "음료",
+      "name": "halff 바나나크림라떼",
+      "israeliIngredients": ["바나나농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "333",
+      "distributor": "CJ제일제당",
+      "category": "음료",
+      "name": "밸런스밀 프로틴쉐이크 바나나",
+      "israeliIngredients": ["바나나농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "334",
+      "distributor": "이그니스",
+      "category": "음료",
+      "name": "클룹 x HDEX 퍼포먼스 드링크 포스트바이오틱스",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "335",
+      "distributor": "BGF리테일",
+      "category": "가공유",
+      "name": "PBICK Milk 바나나프렌즈",
+      "israeliIngredients": ["바나나농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "336",
+      "distributor": "델토리",
+      "category": "과자",
+      "name": "쿠키런킹덤 큰별 바나나스낵",
+      "israeliIngredients": ["바나나농축액"],
       "state": "onSale"
     }
   ]
