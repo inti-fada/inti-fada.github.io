@@ -2687,6 +2687,158 @@
       "name": "쿠키런킹덤 큰별 바나나스낵",
       "israeliIngredients": ["바나나농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "337",
+      "distributor": "연세대학교 연세유업",
+      "category": "요거트",
+      "name": "연세 딸기요거트",
+      "israeliIngredients": ["딸기농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "338",
+      "distributor": "연세대학교 연세유업",
+      "category": "요거트",
+      "name": "연세 복숭아요거트",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "339",
+      "distributor": "동아제약",
+      "category": "음료",
+      "name": "얼박 에이드 복숭아",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "340",
+      "distributor": "놀라운맥주",
+      "category": "주류",
+      "name": "스웨이 복숭아",
+      "israeliIngredients": ["복사나무열매농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "341",
+      "distributor": "동화약품",
+      "category": "기타",
+      "name": "마그랩 포 스트레스",
+      "israeliIngredients": ["자몽농축액"],
+      "state": "unclear"
+    },
+    {
+      "id": "342",
+      "distributor": "동화약품",
+      "category": "기타",
+      "name": "마그랩 포 에너지",
+      "israeliIngredients": ["열대과일혼합농축액", "레몬과즙농축액"],
+      "state": "unclear"
+    },
+    {
+      "id": "343",
+      "distributor": "동화약품",
+      "category": "기타",
+      "name": "마그랩 젤리푸푸",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "344",
+      "distributor": "동화약품",
+      "category": "음료",
+      "name": "배러레스트",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "345",
+      "distributor": "동화약품",
+      "category": "음료",
+      "name": "배러푸룬",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "346",
+      "distributor": "동화약품",
+      "category": "음료",
+      "name": "배러화이트",
+      "israeliIngredients": ["열대과일농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "347",
+      "distributor": "동화약품",
+      "category": "음료",
+      "name": "하루 한 병 아르기닌",
+      "israeliIngredients": ["열대과일농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "348",
+      "distributor": "GFFG",
+      "category": "빵",
+      "name": "노티드 복숭아 요거트도넛",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "349",
+      "distributor": "SPC삼립",
+      "category": "디저트",
+      "name": "복숭아가 쏟아지는 복주머니",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "350",
+      "distributor": "에이트리F&B",
+      "category": "음료",
+      "name": "엉덩이탐정 복숭아 아이스티",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "351",
+      "distributor": "함소아제약",
+      "category": "음료",
+      "name": "함소아 튼튼워터 복숭아",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "352",
+      "distributor": "부루구루",
+      "category": "주류",
+      "name": "츄-하이 피치",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "353",
+      "distributor": "라이트힐 브루어리 앤드 디스틸러리",
+      "category": "주류",
+      "name": "얼려먹는 샤베트볼 피치",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "354",
+      "distributor": "세븐브로이맥주",
+      "category": "주류",
+      "name": "대표 피치하이볼",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "355",
+      "distributor": "서주",
+      "category": "아이스크림",
+      "name": "피치리치바",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
     }
   ]
 }
