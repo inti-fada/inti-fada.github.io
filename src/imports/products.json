@@ -132,7 +132,7 @@
       "id": "17",
       "distributor": "동원F&B",
       "category": "요거트",
-      "name": "덴마크 드링킹 요구르트 복숭아",
+      "name": "덴마크 드링킹 요구르트 납작복숭아",
       "israeliIngredients": ["복숭아농축액"],
       "state": "onSale"
     },
@@ -315,7 +315,7 @@
     {
       "id": "40",
       "distributor": "매일유업",
-      "category": "디저트",
+      "category": "젤리",
       "name": "데르뜨 감귤",
       "israeliIngredients": ["감귤농축액"],
       "state": "onSale"
@@ -323,7 +323,7 @@
     {
       "id": "41",
       "distributor": "매일유업",
-      "category": "디저트",
+      "category": "젤리",
       "name": "데르뜨 복숭아",
       "israeliIngredients": ["복숭아과즙농축액"],
       "state": "onSale"
@@ -331,7 +331,7 @@
     {
       "id": "42",
       "distributor": "매일유업",
-      "category": "디저트",
+      "category": "젤리",
       "name": "데르뜨 백도",
       "israeliIngredients": ["복숭아과즙농축액"],
       "state": "onSale"
@@ -339,7 +339,7 @@
     {
       "id": "43",
       "distributor": "매일유업",
-      "category": "디저트",
+      "category": "젤리",
       "name": "데르뜨 오렌지",
       "israeliIngredients": ["오렌지과즙농축액"],
       "state": "onSale"
@@ -467,7 +467,7 @@
     {
       "id": "59",
       "distributor": "매일유업",
-      "category": "디저트",
+      "category": "젤리",
       "name": "피크닉 젤리 복숭아",
       "israeliIngredients": [],
       "state": "unclear"
@@ -682,25 +682,25 @@
     },
     {
       "id": "86",
-      "distributor": "빙그레",
+      "distributor": "GS리테일",
       "category": "음료",
-      "name": "유어스 하늘 가득 자몽",
+      "name": "유어스 빙그레 하늘 가득 자몽",
       "israeliIngredients": ["자몽농축과즙", "자몽과육"],
       "state": "onSale"
     },
     {
       "id": "87",
-      "distributor": "빙그레",
+      "distributor": "GS리테일",
       "category": "음료",
-      "name": "유어스 하늘 가득 유자레몬",
+      "name": "유어스 빙그레 하늘 가득 유자레몬",
       "israeliIngredients": ["레몬농축액"],
       "state": "onSale"
     },
     {
       "id": "88",
-      "distributor": "빙그레",
+      "distributor": "GS리테일",
       "category": "음료",
-      "name": "유어스 하늘 가득 납작복숭아",
+      "name": "유어스 빙그레 하늘 가득 납작복숭아",
       "israeliIngredients": ["복숭아농축액"],
       "state": "onSale"
     },
@@ -899,7 +899,7 @@
     {
       "id": "113",
       "distributor": "엠디에스코리아",
-      "category": "디저트",
+      "category": "젤리",
       "name": "젤리블리 애플망고",
       "israeliIngredients": ["망고농축액"],
       "state": "onSale"
@@ -907,7 +907,7 @@
     {
       "id": "114",
       "distributor": "엠디에스코리아",
-      "category": "디저트",
+      "category": "젤리",
       "name": "젤리블리 제로 애플망고",
       "israeliIngredients": ["망고농축액"],
       "state": "onSale"
@@ -915,7 +915,7 @@
     {
       "id": "115",
       "distributor": "엠디에스코리아",
-      "category": "디저트",
+      "category": "젤리",
       "name": "젤리블리 감귤",
       "israeliIngredients": ["감귤농축액"],
       "state": "onSale"
@@ -923,7 +923,7 @@
     {
       "id": "116",
       "distributor": "엠디에스코리아",
-      "category": "디저트",
+      "category": "젤리",
       "name": "젤리블리 제로슈가 오렌지망고",
       "israeliIngredients": ["오렌지농축액", "망고농축액"],
       "state": "onSale"
@@ -931,7 +931,7 @@
     {
       "id": "117",
       "distributor": "엠디에스코리아",
-      "category": "디저트",
+      "category": "젤리",
       "name": "젤리블리 제로슈가 피치플럼",
       "israeliIngredients": ["복숭아농축액"],
       "state": "onSale"
@@ -1979,7 +1979,7 @@
     {
       "id": "248",
       "distributor": "빙그레",
-      "category": "디저트",
+      "category": "젤리",
       "name": "곤약젤리 복숭아",
       "israeliIngredients": ["복숭아농축액"],
       "state": "onSale"
@@ -2267,7 +2267,7 @@
     {
       "id": "284",
       "distributor": "조이푸드",
-      "category": "디저트",
+      "category": "빵",
       "name": "양쯔깐루 스타일 망고자몽 펄케익",
       "israeliIngredients": ["레드자몽농축액"],
       "state": "onSale"
@@ -2787,7 +2787,7 @@
     {
       "id": "349",
       "distributor": "SPC삼립",
-      "category": "디저트",
+      "category": "빵",
       "name": "복숭아가 쏟아지는 복주머니",
       "israeliIngredients": ["복숭아농축액"],
       "state": "onSale"
@@ -2837,6 +2837,262 @@
       "distributor": "서주",
       "category": "아이스크림",
       "name": "피치리치바",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "356",
+      "distributor": "링티",
+      "category": "음료",
+      "name": "링티 비타제로 복숭아에이드",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "357",
+      "distributor": "링티",
+      "category": "음료",
+      "name": "링티 비타제로 레몬에이드",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "358",
+      "distributor": "이그니스",
+      "category": "음료",
+      "name": "클룹 애사비소다 신비복숭아 제로",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "359",
+      "distributor": "이그니스",
+      "category": "음료",
+      "name": "클룹 애사비소다 레몬비니거 제로",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "360",
+      "distributor": "해태아이스크림",
+      "category": "아이스크림",
+      "name": "아이스가이 복숭아",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "361",
+      "distributor": "엠즈베이커스",
+      "category": "빵",
+      "name": "밤비의 복숭아크림도넛",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "362",
+      "distributor": "웰그린",
+      "category": "음료",
+      "name": "복숭아 아이스티 제로",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "363",
+      "distributor": "대상다이브스",
+      "category": "음료",
+      "name": "LOW & CUT 저당애사비 피치캐모마일",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "364",
+      "distributor": "에브리데이즈코리아",
+      "category": "젤리",
+      "name": "에센셜 C 콜라겐 젤리 복숭아",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "365",
+      "distributor": "에브리데이즈코리아",
+      "category": "젤리",
+      "name": "에센셜 C 콜라겐 젤리 망고",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "366",
+      "distributor": "에브리데이즈코리아",
+      "category": "고형차",
+      "name": "리셋콤부차 복숭아",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "367",
+      "distributor": "에브리데이즈코리아",
+      "category": "고형차",
+      "name": "리셋콤부차 자몽홍차",
+      "israeliIngredients": ["자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "368",
+      "distributor": "GS리테일",
+      "category": "음료",
+      "name": "유어스 프레시오렌지",
+      "israeliIngredients": ["오렌지농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "369",
+      "distributor": "GS리테일",
+      "category": "음료",
+      "name": "유어스 저당 복숭아티",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "370",
+      "distributor": "GS리테일",
+      "category": "음료",
+      "name": "유어스 레몬에이드",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "371",
+      "distributor": "웰그린",
+      "category": "음료",
+      "name": "복숭아 아이스티",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "372",
+      "distributor": "플래티넘맥주",
+      "category": "음료",
+      "name": "IGIN 애플피치 논알콜",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "373",
+      "distributor": "플래티넘맥주",
+      "category": "주류",
+      "name": "IGIN 핑콤토닉",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "374",
+      "distributor": "GS리테일",
+      "category": "과자",
+      "name": "유어스 바나나팝후루",
+      "israeliIngredients": ["바나나농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "375",
+      "distributor": "현대약품",
+      "category": "음료",
+      "name": "헬씨올리고 팝 딸기바닐라",
+      "israeliIngredients": ["딸기농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "376",
+      "distributor": "라이트힐 브루어리 앤드 디스틸러리",
+      "category": "주류",
+      "name": "양사미 피치 하이볼",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "377",
+      "distributor": "이그니스",
+      "category": "음료",
+      "name": "델픽 납작복숭아 우롱티",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "378",
+      "distributor": "부루구루",
+      "category": "주류",
+      "name": "빅팀 자몽",
+      "israeliIngredients": ["레드자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "379",
+      "distributor": "부루구루",
+      "category": "주류",
+      "name": "빅팀 피치",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "380",
+      "distributor": "KG F&B",
+      "category": "음료",
+      "name": "할리스 복숭아 얼그레이 제로",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "381",
+      "distributor": "GS리테일",
+      "category": "음료",
+      "name": "유어스 빙그레 아이스티 자몽허니블랙티",
+      "israeliIngredients": ["레드자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "382",
+      "distributor": "프로엠홀딩스",
+      "category": "음료",
+      "name": "브이톡 제로 레몬에이드",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "383",
+      "distributor": "프로엠홀딩스",
+      "category": "음료",
+      "name": "브이톡 블루 레몬에이드",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "384",
+      "distributor": "프로엠홀딩스",
+      "category": "음료",
+      "name": "블루n톡 레몬에이드",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "385",
+      "distributor": "GS리테일",
+      "category": "음료",
+      "name": "유어스 바나나 헤이즐넛향",
+      "israeliIngredients": ["바나나농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "386",
+      "distributor": "GS리테일",
+      "category": "음료",
+      "name": "유어스 멜론라떼",
+      "israeliIngredients": ["멜론농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "387",
+      "distributor": "GS리테일",
+      "category": "음료",
+      "name": "유어스 보성녹차 아이스티",
       "israeliIngredients": ["복숭아농축액"],
       "state": "onSale"
     }
