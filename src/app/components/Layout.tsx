@@ -122,7 +122,7 @@ const Layout = forwardRef<HTMLDivElement, { children: React.ReactNode; showSearc
               {searchOpen ? (
                 <input 
                   type="text"
-                  placeholder="검색..."
+                  placeholder="검색어를 입력하세요"
                   className="search-input"
                   value={searchQuery}
                   onChange={handleSearchInputChange}

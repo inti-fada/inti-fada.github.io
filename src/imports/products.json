@@ -3095,6 +3095,110 @@
       "name": "유어스 보성녹차 아이스티",
       "israeliIngredients": ["복숭아농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "388",
+      "distributor": "스위트바이오",
+      "category": "요거트",
+      "name": "그릭데이 저당요거트 딸기",
+      "israeliIngredients": ["딸기농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "389",
+      "distributor": "스위트바이오",
+      "category": "요거트",
+      "name": "그릭데이 저당요거트 블루베리",
+      "israeliIngredients": ["배농축과즙"],
+      "state": "onSale"
+    },
+    {
+      "id": "390",
+      "distributor": "어니스트리",
+      "category": "음료",
+      "name": "알파CD 스파클링 제로 레몬맛",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "391",
+      "distributor": "원웨이브",
+      "category": "음료",
+      "name": "비타민 FIT 레몬워터",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "392",
+      "distributor": "스마일에이치",
+      "category": "음료",
+      "name": "레몬 슬라이스 에이드",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "393",
+      "distributor": "세븐브로이맥주",
+      "category": "주류",
+      "name": "하이볼네이션 레몬",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "394",
+      "distributor": "투썸플레이스",
+      "category": "음료",
+      "name": "투썸 레몬 카모마일 티",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "395",
+      "distributor": "부루구루",
+      "category": "주류",
+      "name": "효민사와 자몽",
+      "israeliIngredients": ["레드자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "396",
+      "distributor": "롯데웰푸드",
+      "category": "과자",
+      "name": "프리미엄 가나 레몬치즈 타르트",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "397",
+      "distributor": "스퀴즈맥주",
+      "category": "주류",
+      "name": "프레시볼 자몽 생",
+      "israeliIngredients": ["자몽"],
+      "state": "onSale"
+    },
+    {
+      "id": "398",
+      "distributor": "세븐브로이맥주",
+      "category": "주류",
+      "name": "자몽허니블랙티 하이볼",
+      "israeliIngredients": ["레드자몽농축액", "자몽차"],
+      "state": "onSale"
+    },
+    {
+      "id": "399",
+      "distributor": "GS리테일",
+      "category": "아이스크림",
+      "name": "리얼프라이스 500 망고바",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "400",
+      "distributor": "스마일에이치",
+      "category": "아이스크림",
+      "name": "푸냥이 망고 & 바나나 스무디",
+      "israeliIngredients": ["바나나농축액", "망고농축액"],
+      "state": "onSale"
     }
   ]
 }
