@@ -3199,6 +3199,118 @@
       "name": "푸냥이 망고 & 바나나 스무디",
       "israeliIngredients": ["바나나농축액", "망고농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "401",
+      "distributor": "비알코리아",
+      "category": "음료",
+      "name": "던킨 제로 아이스티 샤인 & 라임",
+      "israeliIngredients": ["라임농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "402",
+      "distributor": "담터F&B",
+      "category": "고형차",
+      "name": "담터 콤부차 라임",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "403",
+      "distributor": "GS리테일",
+      "category": "가공유",
+      "name": "맛삼춘 바나나우유",
+      "israeliIngredients": ["바나나농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "404",
+      "distributor": "베베쿡",
+      "category": "과자",
+      "name": "사르르쿵 바나나",
+      "israeliIngredients": ["바나나농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "405",
+      "distributor": "서주",
+      "category": "아이스크림",
+      "name": "초코바나나멜로바",
+      "israeliIngredients": ["바나나농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "406",
+      "distributor": "서주",
+      "category": "아이스크림",
+      "name": "메로멜로바",
+      "israeliIngredients": ["메론농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "407",
+      "distributor": "GS리테일",
+      "category": "음료",
+      "name": "바나나킥 헤이즐넛 바나나",
+      "israeliIngredients": ["바나나농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "408",
+      "distributor": "쿠캣",
+      "category": "기타",
+      "name": "초코 바나나킥 쏙 찹쌀떡",
+      "israeliIngredients": ["바나나농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "409",
+      "distributor": "쿠캣",
+      "category": "빵",
+      "name": "바나나킥 쏙 롱 쿠키슈",
+      "israeliIngredients": ["바나나농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "410",
+      "distributor": "라이트힐 브루어리 앤드 디스틸러리",
+      "category": "주류",
+      "name": "고구마하이볼",
+      "israeliIngredients": ["배농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "411",
+      "distributor": "스퀴즈맥주",
+      "category": "주류",
+      "name": "프레시볼 오렌지 생",
+      "israeliIngredients": ["오렌지농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "412",
+      "distributor": "카브루",
+      "category": "주류",
+      "name": "화요 하이요 버블리",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "413",
+      "distributor": "카브루",
+      "category": "주류",
+      "name": "이지 피나콜라다 하이볼",
+      "israeliIngredients": ["파인애플농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "414",
+      "distributor": "부루구루",
+      "category": "주류",
+      "name": "생청귤 모히토 하이볼",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
     }
   ]
 }
