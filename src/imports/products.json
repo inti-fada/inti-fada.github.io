@@ -3311,6 +3311,222 @@
       "name": "생청귤 모히토 하이볼",
       "israeliIngredients": ["레몬농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "415",
+      "distributor": "라이트힐 브루어리 앤드 디스틸러리",
+      "category": "주류",
+      "name": "앱솔루트보드카 하이볼 블러드오렌지",
+      "israeliIngredients": ["오렌지농축액", "블러드오렌지농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "416",
+      "distributor": "라이트힐 브루어리 앤드 디스틸러리",
+      "category": "주류",
+      "name": "앱솔루트보드카 하이볼 피치",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "417",
+      "distributor": "디오티컴퍼니",
+      "category": "기타",
+      "name": "왓어버터 망고 버터 스프레드",
+      "israeliIngredients": ["망고농축퓨레", "망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "418",
+      "distributor": "돌코리아",
+      "category": "음료",
+      "name": "Dole 워터젤리 망고",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "419",
+      "distributor": "풀무원녹즙",
+      "category": "음료",
+      "name": "프레시업 당근망고지",
+      "israeliIngredients": ["열대과일농축과즙"],
+      "state": "onSale"
+    },
+    {
+      "id": "420",
+      "distributor": "풀무원녹즙",
+      "category": "음료",
+      "name": "프레시업 자몽 & 신선초",
+      "israeliIngredients": ["레드자몽농축과즙"],
+      "state": "onSale"
+    },
+    {
+      "id": "421",
+      "distributor": "풀무원녹즙",
+      "category": "음료",
+      "name": "프레시업 레몬 & 미나리",
+      "israeliIngredients": ["레몬농축과즙"],
+      "state": "onSale"
+    },
+    {
+      "id": "422",
+      "distributor": "풀무원녹즙",
+      "category": "음료",
+      "name": "프레시업 케일키즈",
+      "israeliIngredients": ["열대과일농축과즙"],
+      "state": "onSale"
+    },
+    {
+      "id": "423",
+      "distributor": "풀무원녹즙",
+      "category": "음료",
+      "name": "클렌즈랩 옐로우",
+      "israeliIngredients": ["배농축과즙"],
+      "state": "onSale"
+    },
+    {
+      "id": "424",
+      "distributor": "한국인삼공사",
+      "category": "기타",
+      "name": "정관장 에브리타임 망고 플레이버",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "425",
+      "distributor": "밀타운",
+      "category": "요거트",
+      "name": "밀키요 프리미엄 그릭요거트 애플망고",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "426",
+      "distributor": "제주맥주",
+      "category": "주류",
+      "name": "제주 누보 망고",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "427",
+      "distributor": "돌코리아",
+      "category": "음료",
+      "name": "Dole 후룻팝 오렌지",
+      "israeliIngredients": ["오렌지농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "428",
+      "distributor": "돌코리아",
+      "category": "음료",
+      "name": "Dole 후룻팝 피치",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "429",
+      "distributor": "서주",
+      "category": "아이스크림",
+      "name": "스키니피그 저당 쥬시바 망고요거트",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "430",
+      "distributor": "지엔씨푸드",
+      "category": "아이스크림",
+      "name": "아이스 팩토리 샤인머스캣 샤벳",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "431",
+      "distributor": "제나",
+      "category": "아이스크림",
+      "name": "라임 캔샤베트",
+      "israeliIngredients": ["라임농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "432",
+      "distributor": "바디랩",
+      "category": "숙취해소제",
+      "name": "RU21 웨이크업 스틱 복숭아맛",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "433",
+      "distributor": "바디랩",
+      "category": "숙취해소제",
+      "name": "RU21 웨이크업 스틱 망고맛",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "434",
+      "distributor": "SK네트웍스 워커힐",
+      "category": "아이스크림",
+      "name": "워커힐고메 아이스크림 더블 베리",
+      "israeliIngredients": ["딸기농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "435",
+      "distributor": "SK네트웍스 워커힐",
+      "category": "아이스크림",
+      "name": "워커힐고메 아이스크림 스위트 망고 바나나",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "436",
+      "distributor": "설빙",
+      "category": "아이스크림",
+      "name": "짜먹는 설빙 망고맛",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "437",
+      "distributor": "담터F&B",
+      "category": "침출차",
+      "name": "콜드브루티 복숭아 & 패션후르츠 홍차",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "438",
+      "distributor": "담터F&B",
+      "category": "침출차",
+      "name": "콜드브루티 리치 캐모마일",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "439",
+      "distributor": "동아제약",
+      "category": "기타",
+      "name": "퓨레카 그린즈 크런치 레몬라임맛",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "440",
+      "distributor": "동아제약",
+      "category": "기타",
+      "name": "퓨레카 그린즈 워터믹스 파인망고맛",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "441",
+      "distributor": "동아제약",
+      "category": "기타",
+      "name": "퓨레카 그린즈 워터믹스 레드자몽맛",
+      "israeliIngredients": ["레드자몽농축고형분"],
+      "state": "onSale"
     }
   ]
 }
