@@ -452,7 +452,7 @@
       "id": "57",
       "distributor": "매일유업",
       "category": "가공유",
-      "name": "허쉬초콜릿 드링크 바나나",
+      "name": "허쉬 초콜릿 드링크 바나나",
       "israeliIngredients": ["바나나과즙농축액"],
       "state": "onSale"
     },
@@ -3526,6 +3526,14 @@
       "category": "기타",
       "name": "퓨레카 그린즈 워터믹스 레드자몽맛",
       "israeliIngredients": ["레드자몽농축고형분"],
+      "state": "onSale"
+    },
+    {
+      "id": "442",
+      "distributor": "라라스윗",
+      "category": "아이스크림",
+      "name": "저당 생요거트 망고",
+      "israeliIngredients": ["레몬농축액"],
       "state": "onSale"
     }
   ]
