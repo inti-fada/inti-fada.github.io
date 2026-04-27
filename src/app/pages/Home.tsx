@@ -88,12 +88,28 @@ export default function Home() {
   useEffect(() => {
     if (selectedIngredientProduct) {
       document.body.style.overflow = 'hidden';
+      document.body.style.position = 'fixed';
+      document.body.style.width = '100%';
+      
+      const preventScroll = (e: Event) => {
+        e.preventDefault();
+      };
+      
+      document.addEventListener('touchmove', preventScroll, { passive: false });
+      
+      return () => {
+        document.removeEventListener('touchmove', preventScroll);
+      };
     } else {
       document.body.style.overflow = 'unset';
+      document.body.style.position = 'unset';
+      document.body.style.width = 'unset';
     }
     
     return () => {
       document.body.style.overflow = 'unset';
+      document.body.style.position = 'unset';
+      document.body.style.width = 'unset';
     };
   }, [selectedIngredientProduct]);
 
