@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import productsData from '../../imports/products.json';
-import availableImages from '../../imports/availableImages.json';
+import availableProductImages from '../../imports/availableProductImages.json';
+import availableIngredientImages from '../../imports/availableIngredientImages.json';
 
 import Layout from '../components/Layout';
 import { FilterButton } from '../components/UI';
@@ -14,11 +15,14 @@ interface Product {
   state: string;
 }
 
-function ProductCard({ product, hasImage }: { product: Product; hasImage: boolean }) {
+function ProductCard({ product, hasImage, hasIngredientImage, onIngredientClick }: { product: Product; hasImage: boolean; hasIngredientImage: boolean; onIngredientClick?: () => void }) {
   const imageUrl = `/thumbnails/${product.id}.webp`;
 
   return (
-    <div className="product-card">
+    <div 
+      className={`product-card ${hasIngredientImage ? 'product-card-clickable' : ''}`}
+      onClick={() => hasIngredientImage && onIngredientClick?.()}
+    >
       <div className="product-info">
         <div className="flex flex-col gap-1">
           <div className="product-badge">
@@ -42,7 +46,8 @@ function ProductCard({ product, hasImage }: { product: Product; hasImage: boolea
 }
 
 export default function Home() {
-  const imageSet = useMemo(() => new Set(availableImages), []);
+  const imageSet = useMemo(() => new Set(availableProductImages), []);
+  const ingredientImageSet = useMemo(() => new Set(availableIngredientImages), []);
   
   const onSaleProducts = useMemo(() => {
     return (productsData.products as Product[]).filter(p => p.state === 'onSale');
@@ -50,6 +55,7 @@ export default function Home() {
 
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
+  const [selectedIngredientProduct, setSelectedIngredientProduct] = useState<Product | null>(null);
 
   const categories = useMemo(() => {
     const counts = new Map<string, number>();
@@ -81,6 +87,27 @@ export default function Home() {
 
   return (
     <Layout showSearchButton={true} onSearch={setSearchQuery}>
+      {selectedIngredientProduct && (
+        <div 
+          className="ingredient-modal-overlay"
+          onClick={() => setSelectedIngredientProduct(null)}
+        >
+          <div className="ingredient-modal-content" onClick={e => e.stopPropagation()}>
+            <button 
+              className="ingredient-modal-close"
+              onClick={() => setSelectedIngredientProduct(null)}
+              aria-label="Close modal"
+            >
+              ✕
+            </button>
+            <img 
+              src={`/ingredient-info-images/${selectedIngredientProduct.id}.webp`}
+              alt={selectedIngredientProduct.name}
+              className="ingredient-modal-image"
+            />
+          </div>
+        </div>
+      )}
       <nav className="filter-bar">
         <div className="filter-scroll-container">
           <FilterButton 
@@ -112,7 +139,9 @@ export default function Home() {
             <ProductCard 
               key={product.id} 
               product={product} 
-              hasImage={imageSet.has(product.id)} 
+              hasImage={imageSet.has(product.id)}
+              hasIngredientImage={ingredientImageSet.has(product.id)}
+              onIngredientClick={() => setSelectedIngredientProduct(product)}
             />
           ))}
         </div>

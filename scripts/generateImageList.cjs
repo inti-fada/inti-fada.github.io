@@ -1,11 +1,18 @@
 const fs = require('fs');
 const path = require('path');
 
-const imageDir = path.join(__dirname, '../public/thumbnails');
-const outputFile = path.join(__dirname, '../src/imports/availableImages.json');
+const thumbnailDir = path.join(__dirname, '../public/thumbnails');
+const ingredientDir = path.join(__dirname, '../public/ingredient-info-images');
+const outputFile = path.join(__dirname, '../src/imports/availableProductImages.json');
+const ingredientOutputFile = path.join(__dirname, '../src/imports/availableIngredientImages.json');
 
-const files = fs.readdirSync(imageDir)
+const thumbnailFiles = fs.readdirSync(thumbnailDir)
   .filter(file => file.endsWith('.webp'))
   .map(file => file.replace('.webp', ''));
 
-fs.writeFileSync(outputFile, JSON.stringify(files));
+const ingredientFiles = fs.readdirSync(ingredientDir)
+  .filter(file => file.endsWith('.webp'))
+  .map(file => file.replace('.webp', ''));
+
+fs.writeFileSync(outputFile, JSON.stringify(thumbnailFiles));
+fs.writeFileSync(ingredientOutputFile, JSON.stringify(ingredientFiles));
