@@ -85,6 +85,18 @@ export default function Home() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [selectedCategory]);
 
+  useEffect(() => {
+    if (selectedIngredientProduct) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [selectedIngredientProduct]);
+
   return (
     <Layout showSearchButton={true} onSearch={setSearchQuery}>
       {selectedIngredientProduct && (
