@@ -3535,6 +3535,21 @@
       "name": "저당 생요거트 망고",
       "israeliIngredients": ["레몬농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "443",
+      "distributor": "CJ푸드빌",
+      "category": "가공유",
+      "name": "피글렛의 달콤한 딸기우유",
+      "israeliIngredients": ["딸기농축액"],
+      "state": "onSale"},
+    {
+      "id": "444",
+      "distributor": "프레시코",
+      "category": "음료",
+      "name": "티니핑 워터젤리 복숭아",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
     }
   ]
 }
