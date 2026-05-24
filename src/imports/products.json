@@ -3550,6 +3550,30 @@
       "name": "티니핑 워터젤리 복숭아",
       "israeliIngredients": ["복숭아농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "445",
+      "distributor": "종근당건강",
+      "category": "기타",
+      "name": "아임비타 멀티비타민 아르기닌샷",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "446",
+      "distributor": "종근당",
+      "category": "기타",
+      "name": "멀티비타 부스터샷",
+      "israeliIngredients": ["레드자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "447",
+      "distributor": "대웅제약",
+      "category": "기타",
+      "name": "임팩타임 에너지젤",
+      "israeliIngredients": ["레몬농축액","레드자몽농축액"],
+      "state": "onSale"
     }
   ]
 }
