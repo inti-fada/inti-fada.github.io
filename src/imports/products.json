@@ -3574,6 +3574,30 @@
       "name": "임팩타임 에너지젤",
       "israeliIngredients": ["레몬농축액","레드자몽농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "448",
+      "distributor": "위닝",
+      "category": "음료",
+      "name": "공차 피치우롱티",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "449",
+      "distributor": "위닝",
+      "category": "음료",
+      "name": "공차 레몬 자스민티",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "450",
+      "distributor": "라라스윗",
+      "category": "아이스크림",
+      "name": "리얼 망고 쫀득바",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
     }
   ]
 }
