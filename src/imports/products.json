@@ -3484,7 +3484,7 @@
       "id": "436",
       "distributor": "설빙",
       "category": "아이스크림",
-      "name": "짜먹는 설빙 망고맛",
+      "name": "짜먹는 설빙 망고빙수맛",
       "israeliIngredients": ["망고농축액"],
       "state": "onSale"
     },
@@ -3597,6 +3597,14 @@
       "category": "아이스크림",
       "name": "리얼 망고 쫀득바",
       "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "451",
+      "distributor": "오뚜기",
+      "category": "음료",
+      "name": "데이프로틴 바나나",
+      "israeliIngredients": ["바나나농축액"],
       "state": "onSale"
     }
   ]
