@@ -99,6 +99,10 @@ export default function Home() {
   }, [selectedCategory]);
 
   useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [sortOrder]);
+
+  useEffect(() => {
     if (selectedIngredientProduct) {
       document.body.style.overflow = 'hidden';
       
