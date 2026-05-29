@@ -56,6 +56,15 @@ export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedIngredientProduct, setSelectedIngredientProduct] = useState<Product | null>(null);
+  const [sortOrder, setSortOrder] = useState<'newest' | 'alphabetical'>('newest');
+  const [showSortMenu, setShowSortMenu] = useState(false);
+
+  const sortOptions = [
+    { value: 'newest' as const, label: '최근 등록순' },
+    { value: 'alphabetical' as const, label: '가나다순' },
+  ];
+
+  const currentSortLabel = sortOptions.find(opt => opt.value === sortOrder)?.label || '정렬';
 
   const categories = useMemo(() => {
     const counts = new Map<string, number>();
@@ -78,8 +87,12 @@ export default function Home() {
       );
     }
     
-    return [...list].sort((a, b) => a.name.localeCompare(b.name, 'ko'));
-  }, [onSaleProducts, selectedCategory, searchQuery]);
+    if (sortOrder === 'alphabetical') {
+      return [...list].sort((a, b) => a.name.localeCompare(b.name, 'ko'));
+    } else {
+      return [...list].sort((a, b) => parseInt(b.id) - parseInt(a.id));
+    }
+  }, [onSaleProducts, selectedCategory, searchQuery, sortOrder]);
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -107,6 +120,17 @@ export default function Home() {
     };
   }, [selectedIngredientProduct]);
 
+  useEffect(() => {
+    if (showSortMenu) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [showSortMenu]);
+
   return (
     <Layout showSearchButton={true} onSearch={setSearchQuery}>
       {selectedIngredientProduct && (
@@ -132,6 +156,13 @@ export default function Home() {
       )}
       <nav className="filter-bar">
         <div className="filter-scroll-container">
+          <button 
+            className="sort-dropdown-button"
+            onClick={() => setShowSortMenu(!showSortMenu)}
+          >
+            <span>{currentSortLabel}</span>
+            <img src="/ui-assets/chevronDown.svg" alt="sort" className="sort-button-icon" />
+          </button>
           <FilterButton 
             label="모두 보기" 
             isActive={selectedCategory === null}
@@ -173,6 +204,42 @@ export default function Home() {
           </p>
         </footer>
       </main>
+      {showSortMenu && (
+        <div 
+          className="sort-sheet-overlay"
+          onClick={() => setShowSortMenu(false)}
+        >
+          <div className="sort-bottom-sheet" onClick={e => e.stopPropagation()}>
+            <div className="sort-sheet-header">
+              <h3>정렬 방식</h3>
+              <button
+                className="sort-sheet-close"
+                onClick={() => setShowSortMenu(false)}
+                aria-label="Close"
+              >
+                ✕
+              </button>
+            </div>
+            <div className="sort-sheet-content">
+              {sortOptions.map((option) => (
+                <label key={option.value} className="sort-sheet-option">
+                  <input
+                    type="radio"
+                    name="sortOrder"
+                    value={option.value}
+                    checked={sortOrder === option.value}
+                    onChange={(e) => {
+                      setSortOrder(e.target.value as 'newest' | 'alphabetical');
+                      setShowSortMenu(false);
+                    }}
+                  />
+                  <span>{option.label}</span>
+                </label>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </Layout>
   );
 }
