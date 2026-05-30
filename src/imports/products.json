@@ -3606,6 +3606,54 @@
       "name": "데이프로틴 바나나",
       "israeliIngredients": ["바나나농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "452",
+      "distributor": "연세대학교 연세유업",
+      "category": "가공유",
+      "name": "I Have Banana 바나나우유",
+      "israeliIngredients": ["바나나농축과즙"],
+      "state": "onSale"
+    },
+    {
+      "id": "453",
+      "distributor": "연세대학교 연세유업",
+      "category": "음료",
+      "name": "과일랜드 ZERO 사과",
+      "israeliIngredients": ["사과농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "454",
+      "distributor": "연세대학교 연세유업",
+      "category": "음료",
+      "name": "과일랜드 ZERO 청포도",
+      "israeliIngredients": ["청포도농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "455",
+      "distributor": "연세대학교 연세유업",
+      "category": "음료",
+      "name": "연세 고농축주스 3개의 토마토",
+      "israeliIngredients": ["토마토농축액","배농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "456",
+      "distributor": "연세대학교 연세유업",
+      "category": "음료",
+      "name": "연세 고농축주스 30알의 블루베리",
+      "israeliIngredients": ["배농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "457",
+      "distributor": "롯데웰푸드",
+      "category": "가공유",
+      "name": "파스퇴르우유 딸기",
+      "israeliIngredients": ["딸기농축액"],
+      "state": "onSale"
     }
   ]
 }
