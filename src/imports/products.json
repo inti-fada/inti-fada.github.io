@@ -51,7 +51,7 @@
     {
       "id": "7",
       "distributor": "대상다이브스",
-      "category": "잼",
+      "category": "잼/스프레드",
       "name": "복음자리 바로 짜먹는 딸기잼",
       "israeliIngredients": ["딸기농축액"],
       "state": "onSale"
@@ -59,7 +59,7 @@
     {
       "id": "8",
       "distributor": "대상다이브스",
-      "category": "잼",
+      "category": "잼/스프레드",
       "name": "복음자리 바로 짜먹는 망고잼",
       "israeliIngredients": ["망고농축액"],
       "state": "onSale"
@@ -3331,7 +3331,7 @@
     {
       "id": "417",
       "distributor": "디오티컴퍼니",
-      "category": "기타",
+      "category": "잼/스프레드",
       "name": "왓어버터 망고 버터 스프레드",
       "israeliIngredients": ["망고농축퓨레", "망고농축액"],
       "state": "onSale"
