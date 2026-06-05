@@ -3654,6 +3654,14 @@
       "name": "파스퇴르우유 딸기",
       "israeliIngredients": ["딸기농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "458",
+      "distributor": "빙그레",
+      "category": "가공유",
+      "name": "딸기타임",
+      "israeliIngredients": ["딸기농축액"],
+      "state": "onSale"
     }
   ]
 }
