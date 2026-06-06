@@ -874,7 +874,7 @@
     },
     {
       "id": "110",
-      "distributor": "선인",
+      "distributor": "무인양품",
       "category": "음료",
       "name": "무인양품 복숭아 & 우롱티",
       "israeliIngredients": ["복숭아농축액"],
@@ -882,7 +882,7 @@
     },
     {
       "id": "111",
-      "distributor": "선인",
+      "distributor": "무인양품",
       "category": "음료",
       "name": "무인양품 자몽 소다",
       "israeliIngredients": ["자몽 펄프"],
@@ -938,7 +938,7 @@
     },
     {
       "id": "118",
-      "distributor": "연호식품",
+      "distributor": "연호음료",
       "category": "음료",
       "name": "해피 레몬녹차",
       "israeliIngredients": ["레몬농축액"],
@@ -946,7 +946,7 @@
     },
     {
       "id": "119",
-      "distributor": "연호식품",
+      "distributor": "연호음료",
       "category": "음료",
       "name": "해피 복숭아녹차",
       "israeliIngredients": ["복숭아농축액"],
@@ -1826,7 +1826,7 @@
     },
     {
       "id": "229",
-      "distributor": "연호식품",
+      "distributor": "연호음료",
       "category": "음료",
       "name": "스마일 블루레몬 에이드",
       "israeliIngredients": ["레몬농축액"],
