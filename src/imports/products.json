@@ -3662,6 +3662,14 @@
       "name": "딸기타임",
       "israeliIngredients": ["딸기농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "459",
+      "distributor": "스위트바이오",
+      "category": "요거트",
+      "name": "그릭데이 그릭요거트 시그니처 딸기",
+      "israeliIngredients": ["딸기농축액"],
+      "state": "onSale"
     }
   ]
 }
