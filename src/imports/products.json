@@ -3670,6 +3670,22 @@
       "name": "그릭데이 그릭요거트 시그니처 딸기",
       "israeliIngredients": ["딸기농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "460",
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "얼려먹는 피크닉 복숭아",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "461",
+      "distributor": "매일유업",
+      "category": "음료",
+      "name": "얼려먹는 피크닉 레몬",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
     }
   ]
 }
