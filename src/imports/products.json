@@ -2323,7 +2323,7 @@
     {
       "id": "291",
       "distributor": "대상",
-      "category": "음료",
+      "category": "음료베이스",
       "name": "청정원 홍초 자몽",
       "israeliIngredients": ["적자몽농축액"],
       "state": "onSale"
@@ -3515,7 +3515,7 @@
     {
       "id": "440",
       "distributor": "동아제약",
-      "category": "기타",
+      "category": "음료베이스",
       "name": "퓨레카 그린즈 워터믹스 파인망고맛",
       "israeliIngredients": ["망고농축액"],
       "state": "onSale"
@@ -3523,7 +3523,7 @@
     {
       "id": "441",
       "distributor": "동아제약",
-      "category": "기타",
+      "category": "음료베이스",
       "name": "퓨레카 그린즈 워터믹스 레드자몽맛",
       "israeliIngredients": ["레드자몽농축고형분"],
       "state": "onSale"
@@ -3542,7 +3542,8 @@
       "category": "가공유",
       "name": "피글렛의 달콤한 딸기우유",
       "israeliIngredients": ["딸기농축액"],
-      "state": "onSale"},
+      "state": "onSale"
+    },
     {
       "id": "444",
       "distributor": "프레시코",
@@ -3572,7 +3573,7 @@
       "distributor": "대웅제약",
       "category": "기타",
       "name": "임팩타임 에너지젤",
-      "israeliIngredients": ["레몬농축액","레드자몽농축액"],
+      "israeliIngredients": ["레몬농축액", "레드자몽농축액"],
       "state": "onSale"
     },
     {
@@ -3636,7 +3637,7 @@
       "distributor": "연세대학교 연세유업",
       "category": "음료",
       "name": "연세 고농축주스 3개의 토마토",
-      "israeliIngredients": ["토마토농축액","배농축액"],
+      "israeliIngredients": ["토마토농축액", "배농축액"],
       "state": "onSale"
     },
     {
@@ -3693,6 +3694,286 @@
       "category": "아이스크림",
       "name": "상하목장 프로즌 그릭요거트 딜라이트 망고",
       "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "463",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "파인애플 커피",
+      "israeliIngredients": ["레몬농축액", "레몬과육"],
+      "state": "onSale"
+    },
+    {
+      "id": "464",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "딸기라떼",
+      "israeliIngredients": ["딸기농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "465",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "구미식 딸기우유 수박화채",
+      "israeliIngredients": ["딸기농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "466",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "구미식 사이다 수박화채",
+      "israeliIngredients": ["레드자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "467",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "복숭아 캐모마일 티브리즈",
+      "israeliIngredients": ["복숭아농축액", "레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "468",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "아이스티",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "469",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "허니레몬티",
+      "israeliIngredients": ["레몬농축액", "레몬과육"],
+      "state": "onSale"
+    },
+    {
+      "id": "470",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "허니자몽티",
+      "israeliIngredients": ["레드자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "471",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "자몽허니블랙티",
+      "israeliIngredients": ["레드자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "472",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "망고 자몽 요거빙",
+      "israeliIngredients": ["레드자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "473",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "저당 복숭아 스무디",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "474",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "딸기스무디",
+      "israeliIngredients": ["딸기농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "475",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "딸기요거트스무디",
+      "israeliIngredients": ["딸기농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "476",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "제주 한라봉 자몽 에이드",
+      "israeliIngredients": ["레드자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "477",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "꿀 토마토 주스",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "478",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "레몬에이드",
+      "israeliIngredients": ["레몬농축액", "레몬과육"],
+      "state": "onSale"
+    },
+    {
+      "id": "479",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "자몽에이드",
+      "israeliIngredients": ["레드자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "480",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "블루레몬에이드",
+      "israeliIngredients": ["레몬농축액", "레몬과육", "클리어오렌지농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "481",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "캔디소다밀크쉐이크",
+      "israeliIngredients": ["클리어오렌지농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "482",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "딸기 소프트",
+      "israeliIngredients": ["딸기농축액"],
+      "state": "reconfirming"
+    },
+    {
+      "id": "483",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "아이스크림 초코딸기",
+      "israeliIngredients": ["딸기농축액"],
+      "state": "reconfirming"
+    },
+    {
+      "id": "484",
+      "distributor": "대상다이브스",
+      "category": "음료베이스",
+      "name": "레몬에이드",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "485",
+      "distributor": "대상다이브스",
+      "category": "음료베이스",
+      "name": "복숭아 아이스티",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "486",
+      "distributor": "대상다이브스",
+      "category": "음료베이스",
+      "name": "복음자리 샤인머스캣베이스",
+      "israeliIngredients": ["망고농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "487",
+      "distributor": "대상다이브스",
+      "category": "음료베이스",
+      "name": "복음자리 자몽베이스",
+      "israeliIngredients": ["레드자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "488",
+      "distributor": "대상다이브스",
+      "category": "음료베이스",
+      "name": "복음자리 자두&복숭아베이스",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "489",
+      "distributor": "대상다이브스",
+      "category": "음료베이스",
+      "name": "복음자리 제로 복숭아 아이스티",
+      "israeliIngredients": ["복숭아농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "490",
+      "distributor": "올곧",
+      "category": "기타",
+      "name": "바바 버섯잡채 귀리곤약김밥",
+      "israeliIngredients": ["레몬"],
+      "state": "onSale"
+    },
+    {
+      "id": "491",
+      "distributor": "올곧",
+      "category": "기타",
+      "name": "바바 유부우엉 귀리곤약김밥",
+      "israeliIngredients": ["레몬"],
+      "state": "onSale"
+    },
+    {
+      "id": "492",
+      "distributor": "올곧",
+      "category": "기타",
+      "name": "바바 버섯잡채 비건김밥",
+      "israeliIngredients": ["레몬"],
+      "state": "onSale"
+    },
+    {
+      "id": "493",
+      "distributor": "올곧",
+      "category": "기타",
+      "name": "바바 유부우엉 비건김밥",
+      "israeliIngredients": ["레몬"],
+      "state": "onSale"
+    },
+    {
+      "id": "494",
+      "distributor": "미트뱅크",
+      "category": "기타",
+      "name": "맛있는 마늘가득 돼지칼집구이",
+      "israeliIngredients": ["레몬농축과즙"],
+      "state": "onSale"
+    },
+    {
+      "id": "495",
+      "distributor": "오리온",
+      "category": "과자",
+      "name": "초코파이 망고라씨",
+      "israeliIngredients": ["망고농축퓨레"],
+      "state": "onSale"
+    },
+    {
+      "id": "496",
+      "distributor": "하이트진로",
+      "category": "주류",
+      "name": "테라 스파클링 토마토",
+      "israeliIngredients": ["토마토농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "497",
+      "distributor": "하이트진로",
+      "category": "주류",
+      "name": "테라 스파클링 수박",
+      "israeliIngredients": ["수박농축액"],
       "state": "onSale"
     }
   ]
