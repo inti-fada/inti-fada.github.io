@@ -3975,6 +3975,14 @@
       "name": "테라 스파클링 수박",
       "israeliIngredients": ["수박농축액"],
       "state": "onSale"
+    },
+    {
+      "id": "498",
+      "distributor": "매일유업",
+      "category": "요거트",
+      "name": "바이오 ZERO 스위티자몽",
+      "israeliIngredients": ["스위티자몽농축과즙"],
+      "state": "onSale"
     }
   ]
 }
