@@ -55,17 +55,15 @@ export default function articlePage() {
         </div>
         <hr className="divider" />
         <h2 className="article-subtitle">🔥 선언에 함께하는 단체들</h2>
-        <div aria-live="polite">
-          {isLoadingOrgs && <p className="bds-declaration-org-list-loading">목록을 불러오고 있습니다...</p>}
-          {orgsError && <p role="alert">목록을 불러오는 중 오류가 발생했습니다. 페이지를 새로고침해 주세요.</p>}
-          {!isLoadingOrgs && !orgsError && (
-            <ul className="article-list">
-              {orgNames.map((name, index) => (
-                <li key={`${name}-${index}`}>{name}</li>
-              ))}
-            </ul>
-          )}
-        </div>
+        {isLoadingOrgs && <p className="bds-declaration-org-list-loading">목록을 불러오고 있습니다...</p>}
+        {orgsError && <p role="alert">목록을 불러오는 중 오류가 발생했습니다. 페이지를 새로고침해 주세요.</p>}
+        {!isLoadingOrgs && !orgsError && (
+          <ul className="bds-declaration-org-list">
+            {orgNames.map((name, index) => (
+              <li key={`${name}-${index}`}>{name}</li>
+            ))}
+          </ul>
+        )}
       </main>
     </Layout>
   );
