@@ -200,6 +200,34 @@ body {
   transition: var(--transition-color);
 }
 
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  min-height: var(--length-7);
+  width: fit-content;
+  margin: var(--spacing-content-gap) auto 0;
+  padding: var(--spacing-md) var(--spacing-lg);
+  box-sizing: border-box;
+  border-radius: var(--border-radius-xl);
+  background-color: var(--color-accent-rose);
+  color: var(--color-bg-white);
+  font-family: var(--font-semibold);
+  text-align: center;
+  text-decoration: none;
+  transition: var(--transition-default);
+}
+
+.cta:hover {
+  filter: brightness(0.92);
+}
+
+.cta:focus-visible {
+  outline: 2px solid var(--color-text-primary);
+  outline-offset: 3px;
+}
+
 .divider {
   border: 0;
   border-top: var(--border-thickness-default) solid var(--color-border-light);
@@ -581,4 +609,10 @@ body {
 
 .ingredient-modal-close:hover {
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bds-declaration-org-list-loading {
+  font-family: var(--font-regular);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-body-caption);
 }
