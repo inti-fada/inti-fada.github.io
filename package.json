@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "build": "npm run gen-img && vite build && mkdir -p dist/campaign-background && cp dist/index.html dist/campaign-background/index.html",
+    "build": "npm run gen-img && vite build && mkdir -p dist/campaign-background dist/bds-declaration && cp dist/index.html dist/campaign-background/index.html && cp dist/index.html dist/bds-declaration/index.html",
     "dev": "vite",
     "gen-img": "node scripts/generateImageList.cjs"
   },
