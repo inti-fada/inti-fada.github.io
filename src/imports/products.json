@@ -3983,6 +3983,22 @@
       "name": "바이오 ZERO 요구르트 스위티자몽",
       "israeliIngredients": ["스위티자몽농축과즙"],
       "state": "onSale"
+    },
+    {
+      "id": "499",
+      "distributor": "세븐브로이양평",
+      "category": "주류",
+      "name": "리얼 상큼 레몬 하이볼",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "500",
+      "distributor": "세븐브로이양평",
+      "category": "주류",
+      "name": "리얼 상큼 라임 하이볼",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
     }
   ]
 }
