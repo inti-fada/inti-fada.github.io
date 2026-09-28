@@ -8,11 +8,13 @@ const ingredientOutputFile = path.join(__dirname, '../src/imports/availableIngre
 
 const thumbnailFiles = fs.readdirSync(thumbnailDir)
   .filter(file => file.endsWith('.webp'))
-  .map(file => file.replace('.webp', ''));
+  .map(file => file.replace('.webp', ''))
+  .sort((a, b) => Number(a) - Number(b));
 
 const ingredientFiles = fs.readdirSync(ingredientDir)
   .filter(file => file.endsWith('.webp'))
-  .map(file => file.replace('.webp', ''));
+  .map(file => file.replace('.webp', ''))
+  .sort((a, b) => Number(a) - Number(b));
 
 fs.writeFileSync(outputFile, JSON.stringify(thumbnailFiles));
 fs.writeFileSync(ingredientOutputFile, JSON.stringify(ingredientFiles));
