@@ -3978,14 +3978,6 @@
     },
     {
       "id": "498",
-      "distributor": "매일유업",
-      "category": "요거트",
-      "name": "바이오 ZERO 요구르트 스위티자몽",
-      "israeliIngredients": ["스위티자몽농축과즙"],
-      "state": "onSale"
-    },
-    {
-      "id": "499",
       "distributor": "세븐브로이양평",
       "category": "주류",
       "name": "리얼 상큼 레몬 하이볼",
@@ -3993,7 +3985,7 @@
       "state": "onSale"
     },
     {
-      "id": "500",
+      "id": "499",
       "distributor": "세븐브로이양평",
       "category": "주류",
       "name": "리얼 상큼 라임 하이볼",
@@ -4001,7 +3993,7 @@
       "state": "onSale"
     },
     {
-      "id": "501",
+      "id": "500",
       "distributor": "세븐브로이맥주",
       "category": "주류",
       "name": "쁘띠첼 복숭아 라들러",
@@ -4009,7 +4001,7 @@
       "state": "onSale"
     },
     {
-      "id": "502",
+      "id": "501",
       "distributor": "선양소주",
       "category": "주류",
       "name": "선양 피치우롱",
@@ -4017,7 +4009,7 @@
       "state": "onSale"
     },
     {
-      "id": "503",
+      "id": "502",
       "distributor": "뉴트리원",
       "category": "기타",
       "name": "비비랩 멀티비타민 럭키 에너지샷",
@@ -4025,7 +4017,7 @@
       "state": "onSale"
     },
     {
-      "id": "504",
+      "id": "503",
       "distributor": "SPC삼립",
       "category": "빵",
       "name": "포켓몬 뽀뽀라의 피치 요거트 미니샌드",
@@ -4033,7 +4025,7 @@
       "state": "onSale"
     },
     {
-      "id": "505",
+      "id": "504",
       "distributor": "하이트진로음료",
       "category": "음료",
       "name": "하이트제로 0.00 레몬 & 유자",
@@ -4041,7 +4033,7 @@
       "state": "onSale"
     },
     {
-      "id": "506",
+      "id": "505",
       "distributor": "동서식품",
       "category": "음료",
       "name": "스타벅스 자몽허니블랙티 로우 칼로리",
@@ -4049,7 +4041,7 @@
       "state": "onSale"
     },
     {
-      "id": "507",
+      "id": "506",
       "distributor": "hy",
       "category": "음료",
       "name": "ARIH 피치 망고 호라이즌",
@@ -4057,7 +4049,7 @@
       "state": "onSale"
     },
     {
-      "id": "508",
+      "id": "507",
       "distributor": "hy",
       "category": "음료",
       "name": "ARIH 클리어 레몬",
@@ -4065,7 +4057,7 @@
       "state": "onSale"
     },
     {
-      "id": "509",
+      "id": "508",
       "distributor": "hy",
       "category": "음료",
       "name": "ARIH 포지티브 오렌지",
@@ -4073,11 +4065,19 @@
       "state": "onSale"
     },
     {
-      "id": "510",
+      "id": "509",
       "distributor": "hy",
       "category": "음료",
       "name": "ARIH 레드 루비 갈로어",
       "israeliIngredients": ["자몽농축액"],
+      "state": "onSale"
+    },
+    {
+      "id": "510",
+      "distributor": "매일유업",
+      "category": "요거트",
+      "name": "바이오 ZERO 요구르트 스위티자몽",
+      "israeliIngredients": ["스위티자몽농축과즙"],
       "state": "onSale"
     }
   ]
