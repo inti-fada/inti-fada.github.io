@@ -3854,7 +3854,7 @@
       "category": "제조음료",
       "name": "딸기 소프트",
       "israeliIngredients": ["딸기농축액"],
-      "state": "reconfirming"
+      "state": "onSale"
     },
     {
       "id": "483",
@@ -3862,7 +3862,7 @@
       "category": "제조음료",
       "name": "아이스크림 초코딸기",
       "israeliIngredients": ["딸기농축액"],
-      "state": "reconfirming"
+      "state": "onSale"
     },
     {
       "id": "484",
