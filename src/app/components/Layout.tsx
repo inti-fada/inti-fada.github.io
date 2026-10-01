@@ -95,11 +95,12 @@ const Layout = forwardRef<HTMLDivElement, { children: React.ReactNode; showSearc
             <div className="flex flex-col w-full">
               <MenuItem label="🔍 이스라엘산 과일 원료 포함 식품 목록" onClick={() => { navigate('/'); closeMenu(); }} />
               <MenuItem label="❓ 왜 이스라엘산 과일이 문제인가요?" onClick={() => { navigate('/campaign-background'); closeMenu(); }} />
+              <MenuItem label="✋ BDS 선언문 - 내 삶터·일터에서 이스라엘산 원재료가 들어간 식품을 소비하지 않겠습니다." onClick={() => { navigate('/bds-declaration'); closeMenu(); }} />
               <MenuItem label="📮 제보하기" isOutlink href="https://forms.gle/3kKMPJrdXr9dK7tUA" />
             </div>
             
             <div className="flex flex-col w-full pt-4">
-              <SocialLink href="https://twitter.com/pps_kr" icon="/ui-assets/brandTwitter.svg" label="팔레스타인평화연대 (@pps_kr)" />
+              <SocialLink href="https://twitter.com/pps_kr" icon="/ui-assets/brandTwitter.svg" label="팔레스타인평화연대 - BDS Korea (@pps_kr)" />
               <SocialLink href="https://www.instagram.com/palestineinkorea/" icon="/ui-assets/brandInstagram.svg" label="팔레스타인과 연대하는 한국 시민사회 긴급행동 (@palestineinkorea)" isMultiline />
               <SocialLink href="https://github.com/inti-fada/inti-fada.github.io" icon="/ui-assets/brandGitHub.svg" label="Joanne (@inti-fada)" />
             </div>

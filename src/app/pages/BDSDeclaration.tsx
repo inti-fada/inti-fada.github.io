@@ -53,9 +53,13 @@ export default function articlePage() {
             <a href="https://forms.gle/ek14MXxwdWjvCNCB7" className="cta" target="_blank" rel="noopener noreferrer">BDS 선언 동참하기 ✍️</a>
           </div>
         </div>
-        <hr className="divider" />
-        <h2 className="article-subtitle">🔥 선언에 함께하는 단체들</h2>
-        {isLoadingOrgs && <p className="bds-declaration-org-list-loading">목록을 불러오고 있습니다...</p>}
+        {orgNames.length > 1 && (
+          <>
+            <hr className="divider" />
+            <h2 className="article-subtitle">🔥 선언에 함께하는 단체들</h2>
+          </>
+        )}
+        {/* {isLoadingOrgs && <p className="bds-declaration-org-list-loading">목록을 불러오고 있습니다...</p>} */}
         {orgsError && <p role="alert">목록을 불러오는 중 오류가 발생했습니다. 페이지를 새로고침해 주세요.</p>}
         {!isLoadingOrgs && !orgsError && (
           <ul className="bds-declaration-org-list">
