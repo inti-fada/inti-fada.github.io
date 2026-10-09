@@ -4079,6 +4079,14 @@
       "name": "바이오 ZERO 요구르트 스위티자몽",
       "israeliIngredients": ["스위티자몽농축과즙"],
       "state": "onSale"
+    },
+    {
+      "id": "511",
+      "distributor": "CJ푸드빌",
+      "category": "빵",
+      "name": "뚜레쥬르 양즈깐루 케이크",
+      "israeliIngredients": ["적자몽주스농축액","홍자몽과육"],
+      "state": "onSale"
     }
   ]
 }
