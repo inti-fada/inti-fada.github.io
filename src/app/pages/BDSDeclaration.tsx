@@ -53,7 +53,7 @@ export default function articlePage() {
             <a href="https://forms.gle/ek14MXxwdWjvCNCB7" className="cta" target="_blank" rel="noopener noreferrer">BDS 선언 동참하기 ✍️</a>
           </div>
         </div>
-        {orgNames.length > 1 && (
+        {orgNames.length >= 1 && (
           <>
             <hr className="divider" />
             <h2 className="article-subtitle">🔥 선언에 함께하는 단체들</h2>
