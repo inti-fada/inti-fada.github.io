@@ -612,6 +612,7 @@ body {
 }
 
 .bds-declaration-org-list-loading {
+  margin-top: calc(-1 * var(--spacing-lg));
   font-family: var(--font-regular);
   color: var(--color-text-secondary);
   font-size: var(--font-size-body-caption);
