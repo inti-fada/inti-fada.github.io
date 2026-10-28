@@ -626,4 +626,5 @@ body {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-2xs);
+  color: var(--color-text-primary);
 }
