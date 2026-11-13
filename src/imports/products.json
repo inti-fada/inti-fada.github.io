@@ -4087,6 +4087,22 @@
       "name": "뚜레쥬르 양즈깐루 케이크",
       "israeliIngredients": ["적자몽주스농축액","홍자몽과육"],
       "state": "onSale"
+    },
+    {
+      "id": "512",
+      "distributor": "남양유업",
+      "category": "요거트",
+      "name": "맛있는 드링킹 요거트 납작복숭아",
+      "israeliIngredients": ["복숭아농축과즙"],
+      "state": "onSale"
+    },
+    {
+      "id": "513",
+      "distributor": "남양유업",
+      "category": "요거트",
+      "name": "맛있는 드링킹 요거트 딸기",
+      "israeliIngredients": ["딸기농축과즙"],
+      "state": "onSale"
     }
   ]
 }
