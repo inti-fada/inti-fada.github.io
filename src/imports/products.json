@@ -4103,6 +4103,14 @@
       "name": "맛있는 드링킹 요거트 딸기",
       "israeliIngredients": ["딸기농축과즙"],
       "state": "onSale"
+    },
+    {
+      "id": "514",
+      "distributor": "컴포즈커피",
+      "category": "제조음료",
+      "name": "청귤캐모마일티",
+      "israeliIngredients": ["레몬농축액"],
+      "state": "onSale"
     }
   ]
 }
